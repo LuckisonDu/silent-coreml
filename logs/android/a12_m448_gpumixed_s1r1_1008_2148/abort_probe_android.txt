@@ -1,0 +1,30 @@
+[2026-10-09 04:51:30 +0000] android-probe 开始 model=m448/sa.tflite:a,c,d>h;m448/ca.tflite:h,b>h;m448/ffnpre.tflite:h,c>n;m448/ffn0.tflite:n,z>s;m448/ffn1.tflite:n,s>s;m448/ffn2.tflite:n,s>s;m448/ffn3.tflite:n,s>s;m448/ffn4.tflite:n,s>s;m448/ffn5.tflite:n,s>s;m448/ffn6.tflite:n,s>s;m448/ffn7.tflite:n,s>s;m448/ffnpost.tflite:h,s,c>o T=4550 n=40 backend=gpu prec=mixed api=auto alt=1 tstat=0 AP=32.8 BAT=29.1 bat=100 btemp=291 chg=5 ac=true usb=false mem=1663MB gclk=0 gbusy=  0%
+[2026-10-09 04:51:30 +0000] thermal-zones 
+[2026-10-09 04:51:30 +0000] sys /sys/class/misc/mali0/device/js_timeouts = (读不到)
+[2026-10-09 04:51:30 +0000] sys /sys/class/misc/mali0/device/js_scheduling_period = (读不到)
+[2026-10-09 04:51:30 +0000] sys /sys/class/misc/mali0/device/reset_timeout = (读不到)
+[2026-10-09 04:51:30 +0000] sys /sys/class/misc/mali0/device/gpuinfo = (读不到)
+[2026-10-09 04:51:30 +0000] sys /sys/kernel/gpu/gpu_model = (Unknown Mali GPU)
+[2026-10-09 04:51:30 +0000] sys /sys/kernel/gpu/gpu_max_clock = 1001000
+[2026-10-09 04:51:30 +0000] sys /sys/kernel/gpu/gpu_min_clock = 377000
+[2026-10-09 04:51:30 +0000] 段数 12 reload=1 pref=fast cache=/data/local/tmp/icce/gpucache
+[2026-10-09 04:51:30 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_3433473727694026355_624804015910514595.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 04:51:47 +0000] 预热 #1 14.6s st=0 tstat=0 AP=32.8 BAT=29.1 bat=100 btemp=291 chg=5 ac=true usb=false mem=759
+[2026-10-09 04:53:03 +0000] 预热 #6 15.3s st=0 tstat=0 AP=37.6 BAT=29.3 bat=100 btemp=293 chg=5 ac=true usb=false mem=768
+[2026-10-09 04:54:17 +0000] 预热 #11 15.1s st=0 tstat=0 AP=37.7 BAT=29.1 bat=100 btemp=291 chg=5 ac=true usb=false mem=760
+[2026-10-09 04:55:32 +0000] 预热 #16 15.0s st=0 tstat=0 AP=39.1 BAT=29.1 bat=100 btemp=291 chg=5 ac=true usb=false mem=730
+[2026-10-09 04:56:48 +0000] 预热 #21 15.5s st=0 tstat=0 AP=38.9 BAT=29.0 bat=100 btemp=290 chg=5 ac=true usb=false mem=647
+[2026-10-09 04:58:03 +0000] 预热 #26 14.9s st=0 tstat=0 AP=39.5 BAT=29.3 bat=100 btemp=293 chg=5 ac=true usb=false mem=673
+[2026-10-09 04:59:17 +0000] 预热 #31 14.8s st=0 tstat=0 AP=39.6 BAT=29.0 bat=100 btemp=290 chg=5 ac=true usb=false mem=691
+[2026-10-09 05:00:32 +0000] 预热 #36 15.3s st=0 tstat=0 AP=39.5 BAT=29.0 bat=100 btemp=290 chg=5 ac=true usb=false mem=674
+[2026-10-09 05:01:33 +0000] 预热结束 602s 40 次 tstat=0 AP=40.4 BAT=29.1 bat=100 btemp=291 chg=5 ac=true usb=false mem=682
+[2026-10-09 05:01:35 +0000]   i=0 段0 建图 1.8s mem 907→776 最低 655
+[2026-10-09 05:02:14 +0000]   i=0 段0 推理 38.72s mem=709 最低 655
+[2026-10-09 05:02:14 +0000]   i=0 段0 释放后 mem=822
+[2026-10-09 05:02:18 +0000]   i=0 段1 建图 3.9s mem 822→918 最低 779
+[2026-10-09 05:02:32 +0000]   i=0 段1 推理 14.67s mem=784 最低 779
+[2026-10-09 05:02:32 +0000]   i=0 段1 释放后 mem=897
+[2026-10-09 05:02:33 +0000]   i=0 段2 建图 0.2s mem 897→897 最低 895
+[2026-10-09 05:02:33 +0000]   i=0 段2 推理 0.28s mem=814 最低 801
+[2026-10-09 05:02:33 +0000]   i=0 段2 释放后 mem=922
+[2026-10-09 05:02:34 +0000]   i=0 段3 建图 1.2s mem 922→887 最低 868

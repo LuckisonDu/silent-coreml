@@ -1,0 +1,97 @@
+[2026-10-09 03:10:30 +0000] android-probe 开始 model=m448/sa.tflite:a,c,d>h;m448/ca.tflite:h,b>h;m448/ffnpre.tflite:h,c>n;m448/ffn0.tflite:n,z>s;m448/ffn1.tflite:n,s>s;m448/ffn2.tflite:n,s>s;m448/ffn3.tflite:n,s>s;m448/ffn4.tflite:n,s>s;m448/ffn5.tflite:n,s>s;m448/ffn6.tflite:n,s>s;m448/ffn7.tflite:n,s>s;m448/ffnpost.tflite:h,s,c>o T=4550 n=2 backend=gpu prec=fp16 api=auto alt=0 tstat=0 AP=38.2 BAT=29.8 bat=100 btemp=298 chg=5 ac=true usb=false mem=2036MB gclk=0 gbusy=  2%
+[2026-10-09 03:10:30 +0000] thermal-zones 
+[2026-10-09 03:10:30 +0000] sys /sys/class/misc/mali0/device/js_timeouts = (读不到)
+[2026-10-09 03:10:30 +0000] sys /sys/class/misc/mali0/device/js_scheduling_period = (读不到)
+[2026-10-09 03:10:30 +0000] sys /sys/class/misc/mali0/device/reset_timeout = (读不到)
+[2026-10-09 03:10:30 +0000] sys /sys/class/misc/mali0/device/gpuinfo = (读不到)
+[2026-10-09 03:10:30 +0000] sys /sys/kernel/gpu/gpu_model = (Unknown Mali GPU)
+[2026-10-09 03:10:30 +0000] sys /sys/kernel/gpu/gpu_max_clock = 1001000
+[2026-10-09 03:10:30 +0000] sys /sys/kernel/gpu/gpu_min_clock = 377000
+[2026-10-09 03:10:30 +0000] 段数 12 reload=1 pref=fast cache=/data/local/tmp/icce/gpucache
+[2026-10-09 03:10:31 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_5919216726580386349_1587582463814930655.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:10:37 +0000]   i=0 段0 建图 6.9s mem 1600→1020 最低 910
+[2026-10-09 03:10:51 +0000]   i=0 段0 推理 14.11s mem=963 最低 910
+[2026-10-09 03:10:51 +0000]   i=0 段0 释放后 mem=1154
+[2026-10-09 03:10:56 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_4217516326723556481_3841729252495138642.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:11:02 +0000]   i=0 段1 建图 10.4s mem 1154→1242 最低 1083
+[2026-10-09 03:11:07 +0000]   i=0 段1 推理 5.02s mem=1134 最低 1083
+[2026-10-09 03:11:07 +0000]   i=0 段1 释放后 mem=1326
+[2026-10-09 03:11:07 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_9241817011619345019_5079694643518023160.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:11:08 +0000]   i=0 段2 建图 0.7s mem 1326→1367 最低 1328
+[2026-10-09 03:11:08 +0000]   i=0 段2 推理 0.22s mem=1262 最低 1262
+[2026-10-09 03:11:08 +0000]   i=0 段2 释放后 mem=1374
+[2026-10-09 03:11:09 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_12323822400318448738_5131331070867539446.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:11:15 +0000]   i=0 段3 建图 6.5s mem 1374→1171 最低 1092
+[2026-10-09 03:11:17 +0000]   i=0 段3 推理 2.28s mem=1064 最低 1064
+[2026-10-09 03:11:17 +0000]   i=0 段3 释放后 mem=1310
+[2026-10-09 03:11:18 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_17119198364008957985_11038376298889093420.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:11:24 +0000]   i=0 段4 建图 6.5s mem 1310→1223 最低 1071
+[2026-10-09 03:11:26 +0000]   i=0 段4 推理 2.28s mem=1064 最低 1064
+[2026-10-09 03:11:26 +0000]   i=0 段4 释放后 mem=1310
+[2026-10-09 03:11:27 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_17931195505865518663_9886730183194248556.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:11:33 +0000]   i=0 段5 建图 6.5s mem 1310→1226 最低 1064
+[2026-10-09 03:11:35 +0000]   i=0 段5 推理 2.35s mem=1043 最低 1041
+[2026-10-09 03:11:35 +0000]   i=0 段5 释放后 mem=1309
+[2026-10-09 03:11:36 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_7040582106553037410_3945081697817713678.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:11:42 +0000]   i=0 段6 建图 6.5s mem 1309→1225 最低 1083
+[2026-10-09 03:11:44 +0000]   i=0 段6 推理 2.29s mem=1068 最低 1066
+[2026-10-09 03:11:44 +0000]   i=0 段6 释放后 mem=1314
+[2026-10-09 03:11:45 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_4507338849848106411_17434808866412809050.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:11:51 +0000]   i=0 段7 建图 6.8s mem 1314→1227 最低 1087
+[2026-10-09 03:11:54 +0000]   i=0 段7 推理 2.34s mem=1070 最低 1070
+[2026-10-09 03:11:54 +0000]   i=0 段7 释放后 mem=1317
+[2026-10-09 03:11:54 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_12158183497246814567_12387632110739323409.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:12:00 +0000]   i=0 段8 建图 6.6s mem 1317→1230 最低 1090
+[2026-10-09 03:12:03 +0000]   i=0 段8 推理 2.32s mem=1072 最低 1072
+[2026-10-09 03:12:03 +0000]   i=0 段8 释放后 mem=1317
+[2026-10-09 03:12:04 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_5893832569399961377_9028382547508245404.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:12:09 +0000]   i=0 段9 建图 6.6s mem 1317→1233 最低 1097
+[2026-10-09 03:12:12 +0000]   i=0 段9 推理 2.36s mem=1057 最低 1059
+[2026-10-09 03:12:12 +0000]   i=0 段9 释放后 mem=1300
+[2026-10-09 03:12:13 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_9449360360130487313_16972383809831991801.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:12:19 +0000]   i=0 段10 建图 6.5s mem 1300→1200 最低 1068
+[2026-10-09 03:12:21 +0000]   i=0 段10 推理 2.34s mem=1041 最低 1041
+[2026-10-09 03:12:21 +0000]   i=0 段10 释放后 mem=1287
+[2026-10-09 03:12:21 +0000]   i=0 段11 建图 0.2s mem 1287→1326 最低 1338
+[2026-10-09 03:12:22 +0000]   i=0 段11 推理 0.27s mem=1166 最低 1166
+[2026-10-09 03:12:22 +0000]   i=0 段11 释放后 mem=1326
+[2026-10-09 03:12:22 +0000] android-probe i=0 in=full th0=[tmax=-1.0 tgpu=-] th=[tmax=-1.0 tgpu=-] pw0=[tstat=0 AP=38.2 BAT=29.8 bat=100 btemp=298 chg=5 ac=true usb=false] pw=[tstat=0 AP=43.1 BAT=30.1 bat=100 btemp=301 chg=5 ac=true usb=false] mem0=1600 mem=1472 gclk=0 gbusy= 35% dt=38.18s segdt=14.11,5.02,0.22,2.28,2.28,2.35,2.29,2.34,2.32,2.36,2.34,0.27 tload=70.6 threw=- msgs=11 zero=0.0000 naninf=13977600 sentinel=0 segsent=0,0,0,0,0,0,0,0,0,0,0,0 minmem=1166 rms=0.0000 amax=0.0 ref_1mcos=1.000e+00 ref_maxdiff=nan first_1mcos=0.000e+00 same_prev=0 badtok=4550/4550 first=0 last=4549 tail64=64 maxrel=nan bad=1
+[2026-10-09 03:12:23 +0000] 存坏输出 /data/local/tmp/icce/run_a12_448_gpufp16_s1r1_1008_2009/bad_out_i0.f16
+[2026-10-09 03:12:24 +0000]   i=1 段0 建图 1.7s mem 1494→997 最低 972
+[2026-10-09 03:12:38 +0000]   i=1 段0 推理 14.07s mem=943 最低 941
+[2026-10-09 03:12:39 +0000]   i=1 段0 释放后 mem=1128
+[2026-10-09 03:12:44 +0000]   i=1 段1 建图 5.5s mem 1128→1229 最低 1126
+[2026-10-09 03:12:49 +0000]   i=1 段1 推理 4.99s mem=1124 最低 1121
+[2026-10-09 03:12:49 +0000]   i=1 段1 释放后 mem=1311
+[2026-10-09 03:12:49 +0000]   i=1 段2 建图 0.2s mem 1311→1309 最低 1310
+[2026-10-09 03:12:50 +0000]   i=1 段2 推理 0.22s mem=1202 最低 1202
+[2026-10-09 03:12:50 +0000]   i=1 段2 释放后 mem=1311
+[2026-10-09 03:12:51 +0000]   i=1 段3 建图 1.5s mem 1311→1161 最低 1099
+[2026-10-09 03:12:54 +0000]   i=1 段3 推理 2.28s mem=1054 最低 1054
+[2026-10-09 03:12:54 +0000]   i=1 段3 释放后 mem=1299
+[2026-10-09 03:12:55 +0000]   i=1 段4 建图 1.5s mem 1299→1221 最低 1057
+[2026-10-09 03:12:58 +0000]   i=1 段4 推理 2.27s mem=1059 最低 1057
+[2026-10-09 03:12:58 +0000]   i=1 段4 释放后 mem=1304
+[2026-10-09 03:12:59 +0000]   i=1 段5 建图 1.4s mem 1304→1221 最低 1120
+[2026-10-09 03:13:02 +0000]   i=1 段5 推理 2.31s mem=1058 最低 1059
+[2026-10-09 03:13:02 +0000]   i=1 段5 释放后 mem=1303
+[2026-10-09 03:13:03 +0000]   i=1 段6 建图 1.5s mem 1303→1218 最低 1109
+[2026-10-09 03:13:06 +0000]   i=1 段6 推理 2.27s mem=1059 最低 1059
+[2026-10-09 03:13:06 +0000]   i=1 段6 释放后 mem=1304
+[2026-10-09 03:13:07 +0000]   i=1 段7 建图 1.5s mem 1304→1220 最低 1160
+[2026-10-09 03:13:10 +0000]   i=1 段7 推理 2.27s mem=1060 最低 1060
+[2026-10-09 03:13:10 +0000]   i=1 段7 释放后 mem=1305
+[2026-10-09 03:13:11 +0000]   i=1 段8 建图 1.5s mem 1305→1221 最低 1163
+[2026-10-09 03:13:14 +0000]   i=1 段8 推理 2.27s mem=1062 最低 1062
+[2026-10-09 03:13:14 +0000]   i=1 段8 释放后 mem=1307
+[2026-10-09 03:13:15 +0000]   i=1 段9 建图 1.5s mem 1307→1221 最低 1095
+[2026-10-09 03:13:18 +0000]   i=1 段9 推理 2.28s mem=1062 最低 1062
+[2026-10-09 03:13:18 +0000]   i=1 段9 释放后 mem=1307
+[2026-10-09 03:13:19 +0000]   i=1 段10 建图 1.5s mem 1307→1222 最低 1132
+[2026-10-09 03:13:22 +0000]   i=1 段10 推理 2.27s mem=1063 最低 1062
+[2026-10-09 03:13:22 +0000]   i=1 段10 释放后 mem=1307
+[2026-10-09 03:13:22 +0000]   i=1 段11 建图 0.2s mem 1307→1339 最低 1340
+[2026-10-09 03:13:23 +0000]   i=1 段11 推理 0.25s mem=1178 最低 1178
+[2026-10-09 03:13:23 +0000]   i=1 段11 释放后 mem=1340
+[2026-10-09 03:13:23 +0000] android-probe i=1 in=full th0=[tmax=-1.0 tgpu=-] th=[tmax=-1.0 tgpu=-] pw0=[tstat=0 AP=43.1 BAT=30.1 bat=100 btemp=301 chg=5 ac=true usb=false] pw=[tstat=0 AP=44.6 BAT=30.4 bat=100 btemp=304 chg=5 ac=true usb=false] mem0=1494 mem=1504 gclk=0 gbusy=  0% dt=37.76s segdt=14.07,4.99,0.22,2.28,2.27,2.31,2.27,2.27,2.27,2.28,2.27,0.25 tload=19.4 threw=- msgs=0 zero=0.0000 naninf=13977600 sentinel=0 segsent=0,0,0,0,0,0,0,0,0,0,0,0 minmem=1178 rms=0.0000 amax=0.0 ref_1mcos=1.000e+00 ref_maxdiff=nan first_1mcos=1.000e+00 same_prev=1 badtok=4550/4550 first=0 last=4549 tail64=64 maxrel=nan bad=1
+[2026-10-09 03:13:23 +0000] android-probe 结束 坏 2 次 tstat=0 AP=44.6 BAT=30.4 bat=100 btemp=304 chg=5 ac=true usb=false mem=1504MB

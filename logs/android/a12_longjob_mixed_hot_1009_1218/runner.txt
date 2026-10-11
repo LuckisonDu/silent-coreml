@@ -1,0 +1,1 @@
+[2026-10-09 12:21:03] 推 /data/local/tmp/icce/lj/cv_192_k7_256.tflite 校验失败

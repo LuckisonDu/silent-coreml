@@ -1,0 +1,161 @@
+T 11440 inputs ['a', 'b', 'c', 'd']
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 0, "dt": 3.18, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 1, "dt": 2.81, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 2, "dt": 2.78, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 3, "dt": 2.76, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 4, "dt": 2.78, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 5, "dt": 2.76, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 6, "dt": 2.83, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 7, "dt": 2.76, "err": "-", "abort_lines": 2, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 8, "dt": 2.77, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 9, "dt": 2.74, "err": "-", "abort_lines": 2, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 10, "dt": 2.84, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 11, "dt": 2.77, "err": "-", "abort_lines": 2, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 12, "dt": 2.75, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 13, "dt": 2.75, "err": "-", "abort_lines": 2, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 14, "dt": 2.81, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 15, "dt": 2.74, "err": "-", "abort_lines": 2, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 16, "dt": 2.76, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 17, "dt": 2.75, "err": "-", "abort_lines": 2, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 18, "dt": 2.88, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 19, "dt": 2.81, "err": "-", "abort_lines": 2, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 20, "dt": 2.79, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 21, "dt": 2.74, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 22, "dt": 2.77, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 23, "dt": 2.78, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 24, "dt": 2.75, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 25, "dt": 2.79, "err": "-", "abort_lines": 2, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 26, "dt": 2.76, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 27, "dt": 2.85, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 28, "dt": 2.79, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 29, "dt": 2.77, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 30, "dt": 2.78, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 31, "dt": 2.76, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 32, "dt": 2.76, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 33, "dt": 2.78, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 34, "dt": 2.76, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 35, "dt": 2.77, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 36, "dt": 2.75, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 37, "dt": 2.75, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 38, "dt": 2.75, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+  c = float(out @ ref / (np.linalg.norm(out) * np.linalg.norm(ref) + 1e-12))
+{"i": 39, "dt": 2.75, "err": "-", "abort_lines": 1, "zero": 0.0, "nan": 0, "rms": 0.8636783957481384, "cos": 0.9999962449073792}

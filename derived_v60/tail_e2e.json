@@ -1,0 +1,38 @@
+{
+ "phoneB_s104_tail": {
+  "tail_checks": 163,
+  "flagged": 43,
+  "flagged_min": 0.073,
+  "ok_max": 3.29e-07,
+  "zero_reruns": 0,
+  "tail_load_s": 210,
+  "tail_run_s": 274,
+  "block_infer_s": 1893,
+  "clip_s": 3260,
+  "identical_to_log_arm": false
+ },
+ "phoneB_s105_tail": {
+  "tail_checks": 181,
+  "flagged": 61,
+  "flagged_min": 0.0601,
+  "ok_max": 2.84e-07,
+  "zero_reruns": 0,
+  "tail_load_s": 206,
+  "tail_run_s": 311,
+  "block_infer_s": 2116,
+  "clip_s": 3700,
+  "identical_to_log_arm": false
+ },
+ "phoneA_s101_tail": {
+  "tail_checks": 158,
+  "flagged": 38,
+  "flagged_min": 0.117,
+  "ok_max": 2.7e-07,
+  "zero_reruns": 14,
+  "tail_load_s": 112,
+  "tail_run_s": 326,
+  "block_infer_s": 2259,
+  "clip_s": 3492,
+  "identical_to_log_arm": true
+ }
+}

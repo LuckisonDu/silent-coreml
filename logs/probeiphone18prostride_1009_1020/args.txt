@@ -1,0 +1,1 @@
+--abort-probe-iters=120 --abort-probe-ui --abort-probe-uiheavy --abort-probe-gpuhang=4e9 --abort-probe-tail=704x1280f32t64 --abort-probe-tail2=704x1280f32s64:stride64

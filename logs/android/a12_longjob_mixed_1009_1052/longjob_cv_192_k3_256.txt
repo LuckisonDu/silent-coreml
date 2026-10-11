@@ -1,0 +1,9 @@
+[2026-10-09 17:57:39.955 +0000] longjob 开始 model=lj/cv_192_k3_256.tflite n=2 backend=gpu prec=mixed alt=1 tstat=0 AP=30.8 bat=100 mem=1615MB
+[2026-10-09 17:57:40.010 +0000] tflite-msg File /data/local/tmp/icce/gpucache/lj_15172122852257887076_mixed_11372729129703340068.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 17:57:40.533 +0000] 建图 0.6s 最低 mem=1602MB 现 mem=1558MB
+[2026-10-09 17:57:40.647 +0000] 输入 1 个, X 9437184 个数, 输出 36100 行 × 256, mem=1487MB
+[2026-10-09 17:57:40.786 +0000]   i=0 开始 Invoke
+[2026-10-09 17:57:42.587 +0000] longjob i=0 in=full dt=1.493s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0003 ref_1mcos=1.433e-08 ref_maxdiff=0.03125 badrow=0/36100 first=-1 last=-1 maxrel=0.000247 same_prev=0 pw0=[tstat=0 AP=30.8 bat=100] pw=[tstat=0 AP=31.6 bat=100] mem0=1414 mem=1414 minmem=1413 bad=0
+[2026-10-09 17:57:42.707 +0000]   i=1 开始 Invoke
+[2026-10-09 17:57:44.502 +0000] longjob i=1 in=half dt=1.488s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0003 ref_1mcos=1.433e-08 ref_maxdiff=0.01562 badrow=0/36100 first=-1 last=-1 maxrel=0.000247 same_prev=1 pw0=[tstat=0 AP=31.6 bat=100] pw=[tstat=0 AP=31.6 bat=100] mem0=1414 mem=1414 minmem=1413 bad=0
+[2026-10-09 17:57:44.601 +0000] longjob 结束 坏 0 次 tstat=0 AP=31.6 bat=100 mem=1413MB

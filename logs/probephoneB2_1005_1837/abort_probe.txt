@@ -1,0 +1,1 @@
+[2026-10-06 01:25:49 +0000] ✗ abort-probe 失败: Error Domain=com.apple.CoreML Code=3 "Model does not exist at file://<AppContainer>/Library/Application%20Support/fastwan5b/704x1280f32p/block00_int8.mlpackage" UserInfo={NSLocalizedDescription=Model does not exist at file://<AppContainer>/Library/Application%20Support/fastwan5b/704x1280f32p/block00_int8.mlpackage}

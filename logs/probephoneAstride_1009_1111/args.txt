@@ -1,0 +1,1 @@
+--abort-probe-iters=100 --abort-probe-ui --abort-probe-tail=704x1280f32t64 --abort-probe-tail2=704x1280f32s64:stride64

@@ -1,0 +1,27 @@
+{
+ "op": "conv",
+ "H": 192,
+ "k": 3,
+ "C": 256,
+ "Ho": 190,
+ "gflop": 42.5852928,
+ "tflite_bytes": 2360864,
+ "tflite_sha256": "bc82ac2a788dc611656376e823e53a2f91932990298d66e0034661747c58e16f",
+ "ref_sec": 6.0,
+ "ref_absmax": 97.71875,
+ "ref_rms": 17.993360133812782,
+ "mem_mb": {
+  "x_fp32": 36.0,
+  "w_fp32": 2.25,
+  "out_fp32": 35.25390625
+ },
+ "gpu_compat": [
+  "Your model looks compatible with GPU delegate on TFLite runtime version 2.22.0-dev0+selfbuilt.",
+  "This does not guarantee that your model will work well with GPU delegate because there could still be runtime incompatibililties."
+ ],
+ "cpu_sec": 0.06,
+ "cpu_vs_ref": {
+  "maxdiff": 0.0,
+  "one_minus_cos": 0.0
+ }
+}

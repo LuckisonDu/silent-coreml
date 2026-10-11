@@ -1,0 +1,41 @@
+{
+ "A14_whole": {
+  "n": 814,
+  "tail64": 814,
+  "head64": 301,
+  "stride64": 814,
+  "random64_expected_misses": 0.27,
+  "stride64_expected_misses": 0.2,
+  "low_density_n": 4,
+  "min_corrupt_span_tokens": 1430,
+  "span_density_min": 0.211,
+  "span_density_median": 0.993,
+  "stride_spacing_tokens": 178.8
+ },
+ "A14_split": {
+  "n": 90,
+  "tail64": 77,
+  "head64": 10,
+  "stride64": 90,
+  "random64_expected_misses": 0.01,
+  "stride64_expected_misses": 0.002,
+  "low_density_n": 27,
+  "min_corrupt_span_tokens": 1430,
+  "span_density_min": 0.235,
+  "span_density_median": 0.983,
+  "stride_spacing_tokens": 178.8
+ },
+ "A20_whole": {
+  "n": 143,
+  "tail64": 130,
+  "head64": 137,
+  "stride64": 143,
+  "random64_expected_misses": 0.011,
+  "stride64_expected_misses": 0.0,
+  "low_density_n": 9,
+  "min_corrupt_span_tokens": 918,
+  "span_density_min": 0.662,
+  "span_density_median": 1.0,
+  "stride_spacing_tokens": 178.8
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "split_A_whole_minus_3seg_L5": {
+  "diff": 32.0,
+  "ci": [
+   16.0,
+   56.0
+  ],
+  "p_le0": 0.0008
+ },
+ "gap_B_3s_minus_0s_L5": {
+  "diff": 85.0,
+  "ci": [
+   55.0,
+   100.0
+  ],
+  "p_le0": 0.0
+ },
+ "split_A_whole_minus_3seg_L10": {
+  "diff": 32.0,
+  "ci": [
+   20.0,
+   62.0
+  ],
+  "p_le0": 0.0
+ },
+ "gap_B_3s_minus_0s_L10": {
+  "diff": 85.0,
+  "ci": [
+   70.0,
+   100.0
+  ],
+  "p_le0": 0.0
+ },
+ "thermalgate_A_ungated_minus_gated_L5": {
+  "diff": 52.5,
+  "ci": [
+   40.0,
+   80.0
+  ],
+  "p_le0": 0.0
+ },
+ "thermalgate_A_ungated_minus_gated_L10": {
+  "diff": 52.5,
+  "ci": [
+   40.0,
+   82.5
+  ],
+  "p_le0": 0.0
+ },
+ "thermalgate_B_ungated_minus_gated_L5": {
+  "diff": 22.5,
+  "ci": [
+   12.5,
+   40.0
+  ],
+  "p_le0": 0.0
+ },
+ "thermalgate_C_ungated_minus_gated_L5": {
+  "diff": 22.5,
+  "ci": [
+   7.5,
+   42.5
+  ],
+  "p_le0": 0.0008
+ },
+ "split_A_hot_whole_minus_3seg_L5": {
+  "diff": 55.0,
+  "ci": [
+   27.5,
+   72.5
+  ],
+  "p_le0": 0.0
+ },
+ "split_B_whole_minus_3seg_L5": {
+  "diff": 17.5,
+  "ci": [
+   -15.0,
+   42.5
+  ],
+  "p_le0": 0.1847
+ },
+ "gap_A_3s_minus_0s_L5": {
+  "diff": 40.0,
+  "ci": [
+   17.5,
+   65.0
+  ],
+  "p_le0": 0.0005
+ },
+ "warm_A_idle_minus_busy_L5": {
+  "diff": 17.5,
+  "ci": [
+   2.5,
+   45.0
+  ],
+  "p_le0": 0.0177
+ },
+ "qchunk_B_q8_minus_q32_L5": {
+  "diff": 18.0,
+  "ci": [
+   0.0,
+   40.0
+  ],
+  "p_le0": 0.0365
+ }
+}

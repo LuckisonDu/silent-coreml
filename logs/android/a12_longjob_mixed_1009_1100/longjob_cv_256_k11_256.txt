@@ -1,0 +1,15 @@
+[2026-10-09 18:20:10.786 +0000] longjob 开始 model=lj/cv_256_k11_256.tflite n=5 backend=gpu prec=mixed alt=1 tstat=0 AP=35.5 bat=100 mem=1707MB
+[2026-10-09 18:20:10.864 +0000] tflite-msg File /data/local/tmp/icce/gpucache/lj_15447155938251668643_mixed_4540436011214559538.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 18:20:12.154 +0000] 建图 1.4s 最低 mem=1617MB 现 mem=1558MB
+[2026-10-09 18:20:12.350 +0000] 输入 1 个, X 16777216 个数, 输出 60516 行 × 256, mem=1435MB
+[2026-10-09 18:20:12.539 +0000]   i=0 开始 Invoke
+[2026-10-09 18:21:14.953 +0000] longjob i=0 in=full dt=61.742s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.406e-08 ref_maxdiff=0.125 badrow=0/60516 first=-1 last=-1 maxrel=0.000269 same_prev=0 pw0=[tstat=0 AP=35.3 bat=100] pw=[tstat=0 AP=38.3 bat=100] mem0=1310 mem=1306 minmem=1284 bad=0
+[2026-10-09 18:21:25.082 +0000]   i=1 开始 Invoke
+[2026-10-09 18:22:27.376 +0000] longjob i=1 in=half dt=61.619s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.406e-08 ref_maxdiff=0.0625 badrow=0/60516 first=-1 last=-1 maxrel=0.000269 same_prev=0 pw0=[tstat=0 AP=36.5 bat=100] pw=[tstat=0 AP=37.7 bat=100] mem0=1303 mem=1301 minmem=1284 bad=0
+[2026-10-09 18:22:37.509 +0000]   i=2 开始 Invoke
+[2026-10-09 18:23:39.395 +0000] longjob i=2 in=full dt=61.217s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.406e-08 ref_maxdiff=0.125 badrow=0/60516 first=-1 last=-1 maxrel=0.000269 same_prev=0 pw0=[tstat=0 AP=36.2 bat=100] pw=[tstat=0 AP=38.7 bat=100] mem0=1303 mem=1307 minmem=1284 bad=0
+[2026-10-09 18:23:49.531 +0000]   i=3 开始 Invoke
+[2026-10-09 18:24:52.130 +0000] longjob i=3 in=half dt=61.927s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.406e-08 ref_maxdiff=0.0625 badrow=0/60516 first=-1 last=-1 maxrel=0.000269 same_prev=0 pw0=[tstat=0 AP=37.8 bat=100] pw=[tstat=0 AP=38.0 bat=100] mem0=1306 mem=1300 minmem=1284 bad=0
+[2026-10-09 18:25:02.262 +0000]   i=4 开始 Invoke
+[2026-10-09 18:26:04.731 +0000] longjob i=4 in=full dt=61.800s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.406e-08 ref_maxdiff=0.125 badrow=0/60516 first=-1 last=-1 maxrel=0.000269 same_prev=0 pw0=[tstat=0 AP=35.9 bat=100] pw=[tstat=0 AP=39.1 bat=100] mem0=1299 mem=1303 minmem=1284 bad=0
+[2026-10-09 18:26:14.828 +0000] longjob 结束 坏 0 次 tstat=0 AP=36.7 bat=100 mem=1302MB

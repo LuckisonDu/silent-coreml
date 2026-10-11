@@ -1,0 +1,24 @@
+[2026-10-09 03:02:37 +0000] android-probe 开始 model=m448/sa.tflite:a,c,d>h;m448/ca.tflite:h,b>h;m448/ffnpre.tflite:h,c>n;m448/ffn0.tflite:n,z>s;m448/ffn1.tflite:n,s>s;m448/ffn2.tflite:n,s>s;m448/ffn3.tflite:n,s>s;m448/ffnpost.tflite:h,s,c>o T=4550 n=1 backend=gpu prec=fp32 api=auto alt=0 tstat=0 AP=39.8 BAT=30.1 bat=100 btemp=301 chg=5 ac=true usb=false mem=2000MB gclk=0 gbusy=  2%
+[2026-10-09 03:02:37 +0000] thermal-zones 
+[2026-10-09 03:02:37 +0000] sys /sys/class/misc/mali0/device/js_timeouts = (读不到)
+[2026-10-09 03:02:37 +0000] sys /sys/class/misc/mali0/device/js_scheduling_period = (读不到)
+[2026-10-09 03:02:37 +0000] sys /sys/class/misc/mali0/device/reset_timeout = (读不到)
+[2026-10-09 03:02:37 +0000] sys /sys/class/misc/mali0/device/gpuinfo = (读不到)
+[2026-10-09 03:02:37 +0000] sys /sys/kernel/gpu/gpu_model = (Unknown Mali GPU)
+[2026-10-09 03:02:37 +0000] sys /sys/kernel/gpu/gpu_max_clock = 1001000
+[2026-10-09 03:02:37 +0000] sys /sys/kernel/gpu/gpu_min_clock = 377000
+[2026-10-09 03:02:37 +0000] 段数 8 reload=1 pref=fast cache=/data/local/tmp/icce/gpucache
+[2026-10-09 03:02:38 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_13128252015673536613_12582350713618652416.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:02:45 +0000]   i=0 段0 建图 7.9s mem 1566→769 最低 504
+[2026-10-09 03:03:40 +0000]   i=0 段0 推理 54.63s mem=698 最低 504
+[2026-10-09 03:03:40 +0000]   i=0 段0 释放后 mem=961
+[2026-10-09 03:03:43 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_17460348682252611068_4888011454388035293.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:03:49 +0000]   i=0 段1 建图 9.2s mem 961→1020 最低 705
+[2026-10-09 03:04:09 +0000]   i=0 段1 推理 19.74s mem=909 最低 705
+[2026-10-09 03:04:09 +0000]   i=0 段1 释放后 mem=1173
+[2026-10-09 03:04:09 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_6740882272606171061_13310218311669422760.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:04:10 +0000]   i=0 段2 建图 0.8s mem 1173→1264 最低 1174
+[2026-10-09 03:04:11 +0000]   i=0 段2 推理 0.37s mem=1158 最低 1157
+[2026-10-09 03:04:11 +0000]   i=0 段2 释放后 mem=1269
+[2026-10-09 03:04:12 +0000] tflite-msg File /data/local/tmp/icce/gpucache/icce_15203770011107921135_5346660536505583052.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 03:04:19 +0000] mem-guard 触发: MemAvailable 335MB < 350MB, 探针自杀保护手机(这一档在本机装不下)

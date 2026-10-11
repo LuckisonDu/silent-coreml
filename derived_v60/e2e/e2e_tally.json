@@ -1,0 +1,137 @@
+[
+ {
+  "clip": "phoneB_s104_log",
+  "arm": "log",
+  "unhandled_aborts": 0,
+  "log_reruns": 0,
+  "zero_reruns": 8,
+  "trace_seconds": 1922.3,
+  "mp4": true
+ },
+ {
+  "clip": "phoneB_s104_none",
+  "arm": "none",
+  "unhandled_aborts": 12,
+  "log_reruns": 0,
+  "zero_reruns": 0,
+  "trace_seconds": 1831.6,
+  "mp4": true
+ },
+ {
+  "clip": "phoneB_s104_zero",
+  "arm": "zero",
+  "unhandled_aborts": 0,
+  "log_reruns": 0,
+  "zero_reruns": 8,
+  "trace_seconds": 1943.9,
+  "mp4": true
+ },
+ {
+  "clip": "phoneB_s105_log",
+  "arm": "log",
+  "unhandled_aborts": 0,
+  "log_reruns": 0,
+  "zero_reruns": 12,
+  "trace_seconds": 1882.3,
+  "mp4": true
+ },
+ {
+  "clip": "phoneB_s105_none",
+  "arm": "none",
+  "unhandled_aborts": 4,
+  "log_reruns": 0,
+  "zero_reruns": 0,
+  "trace_seconds": 1661.6,
+  "mp4": true
+ },
+ {
+  "clip": "phoneB_s105_zero",
+  "arm": "zero",
+  "unhandled_aborts": 0,
+  "log_reruns": 0,
+  "zero_reruns": 13,
+  "trace_seconds": 1915.8,
+  "mp4": true
+ },
+ {
+  "clip": "phoneA_s101_log",
+  "arm": "log",
+  "unhandled_aborts": 0,
+  "log_reruns": 1,
+  "zero_reruns": 7,
+  "trace_seconds": 1891.0,
+  "mp4": true
+ },
+ {
+  "clip": "phoneA_s101_none",
+  "arm": "none",
+  "unhandled_aborts": 13,
+  "log_reruns": 0,
+  "zero_reruns": 0,
+  "trace_seconds": 1623.0,
+  "mp4": true
+ },
+ {
+  "clip": "phoneA_s101_zero",
+  "arm": "zero",
+  "unhandled_aborts": 0,
+  "log_reruns": 0,
+  "zero_reruns": 7,
+  "trace_seconds": 1853.9,
+  "mp4": true
+ },
+ {
+  "clip": "phoneA_s102_log",
+  "arm": "log",
+  "unhandled_aborts": 0,
+  "log_reruns": 0,
+  "zero_reruns": 7,
+  "trace_seconds": 1807.9,
+  "mp4": true
+ },
+ {
+  "clip": "phoneA_s102_none",
+  "arm": "none",
+  "unhandled_aborts": 11,
+  "log_reruns": 0,
+  "zero_reruns": 0,
+  "trace_seconds": 1655.6,
+  "mp4": true
+ },
+ {
+  "clip": "phoneA_s102_zero",
+  "arm": "zero",
+  "unhandled_aborts": 0,
+  "log_reruns": 0,
+  "zero_reruns": 11,
+  "trace_seconds": 1881.0,
+  "mp4": true
+ },
+ {
+  "clip": "phoneA_s103_log",
+  "arm": "log",
+  "unhandled_aborts": 0,
+  "log_reruns": 0,
+  "zero_reruns": 12,
+  "trace_seconds": 1878.3,
+  "mp4": true
+ },
+ {
+  "clip": "phoneA_s103_none",
+  "arm": "none",
+  "unhandled_aborts": 1,
+  "log_reruns": 0,
+  "zero_reruns": 0,
+  "trace_seconds": 1669.0,
+  "mp4": true
+ },
+ {
+  "clip": "phoneA_s103_zero",
+  "arm": "zero",
+  "unhandled_aborts": 0,
+  "log_reruns": 0,
+  "zero_reruns": 4,
+  "trace_seconds": 1729.4,
+  "mp4": true
+ }
+]

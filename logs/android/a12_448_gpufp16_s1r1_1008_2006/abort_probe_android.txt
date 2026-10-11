@@ -1,0 +1,17 @@
+[2026-10-09 03:07:31 +0000] android-probe 开始 model=m448/sa.tflite:a,c,d>h;m448/ca.tflite:h,b>h;m448/ffnpre.tflite:h,c>n;m448/ffn0.tflite:n,z>s;m448/ffn1.tflite:n,s>s;m448/ffn2.tflite:n,s>s;m448/ffn3.tflite:n,s>s;m448/ffn4.tflite:n,s>s;m448/ffn5.tflite:n,s>s;m448/ffn6.tflite:n,s>s;m448/ffn7.tflite:n,s>s;m448/ffnpost.tflite:h,s,c>o T=4550 n=2 backend=gpu prec=fp16 api=auto alt=0 tstat=0 AP=39.1 BAT=30.0 bat=100 btemp=300 chg=5 ac=true usb=false mem=2041MB gclk=0 gbusy=  2%
+[2026-10-09 03:07:31 +0000] thermal-zones 
+[2026-10-09 03:07:31 +0000] sys /sys/class/misc/mali0/device/js_timeouts = (读不到)
+[2026-10-09 03:07:31 +0000] sys /sys/class/misc/mali0/device/js_scheduling_period = (读不到)
+[2026-10-09 03:07:31 +0000] sys /sys/class/misc/mali0/device/reset_timeout = (读不到)
+[2026-10-09 03:07:31 +0000] sys /sys/class/misc/mali0/device/gpuinfo = (读不到)
+[2026-10-09 03:07:31 +0000] sys /sys/kernel/gpu/gpu_model = (Unknown Mali GPU)
+[2026-10-09 03:07:31 +0000] sys /sys/kernel/gpu/gpu_max_clock = 1001000
+[2026-10-09 03:07:31 +0000] sys /sys/kernel/gpu/gpu_min_clock = 377000
+[2026-10-09 03:07:31 +0000] 段数 12 reload=1 pref=fast cache=/data/local/tmp/icce/gpucache
+[2026-10-09 03:07:32 +0000] tflite-msg TfLiteGpuDelegate Init: MUL: Expected 1 const input tensor(s), but node has 2 const input(s).
+[2026-10-09 03:07:32 +0000] tflite-msg TfLiteGpuDelegate Prepare: delegate is not initialized
+[2026-10-09 03:07:32 +0000] tflite-msg Node number 349 (TfLiteGpuDelegateV2) failed to prepare.
+[2026-10-09 03:07:32 +0000] tflite-msg Restored original execution plan after delegate application failure.
+[2026-10-09 03:07:32 +0000] 解释器创建失败 m448/sa.tflite(GPU delegate 没接上? 看上面 tflite-msg)
+[2026-10-09 03:07:32 +0000] 第 0 次 第 0 段建图失败, 停
+[2026-10-09 03:07:32 +0000] android-probe 结束 坏 0 次 tstat=0 AP=39.1 BAT=30.0 bat=100 btemp=300 chg=5 ac=true usb=false mem=1601MB

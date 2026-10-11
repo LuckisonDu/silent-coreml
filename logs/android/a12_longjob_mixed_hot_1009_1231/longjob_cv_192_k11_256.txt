@@ -1,0 +1,14 @@
+[2026-10-09 19:41:50.464 +0000] longjob 开始 model=lj/cv_192_k11_256.tflite n=5 backend=gpu prec=mixed alt=1 tstat=1 AP=46.0 bat=100 mem=1525MB
+[2026-10-09 19:41:50.954 +0000] 建图 0.5s 最低 mem=1459MB 现 mem=1458MB
+[2026-10-09 19:41:51.088 +0000] 输入 1 个, X 9437184 个数, 输出 33124 行 × 256, mem=1391MB
+[2026-10-09 19:41:51.230 +0000]   i=0 开始 Invoke
+[2026-10-09 19:42:46.023 +0000] longjob i=0 in=full dt=54.133s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.125 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=1 AP=46.0 bat=100] pw=[tstat=1 AP=46.5 bat=100] mem0=1321 mem=1319 minmem=1283 bad=0
+[2026-10-09 19:42:46.168 +0000]   i=1 开始 Invoke
+[2026-10-09 19:43:40.623 +0000] longjob i=1 in=half dt=53.976s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.0625 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=1 AP=46.5 bat=100] pw=[tstat=1 AP=46.4 bat=100] mem0=1318 mem=1317 minmem=1273 bad=0
+[2026-10-09 19:43:40.722 +0000]   i=2 开始 Invoke
+[2026-10-09 19:44:35.210 +0000] longjob i=2 in=full dt=54.010s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.125 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=1 AP=46.4 bat=100] pw=[tstat=1 AP=46.4 bat=100] mem0=1316 mem=1310 minmem=1273 bad=0
+[2026-10-09 19:44:35.310 +0000]   i=3 开始 Invoke
+[2026-10-09 19:45:29.839 +0000] longjob i=3 in=half dt=54.050s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.0625 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=1 AP=46.4 bat=100] pw=[tstat=1 AP=47.1 bat=100] mem0=1311 mem=1312 minmem=1273 bad=0
+[2026-10-09 19:45:29.941 +0000]   i=4 开始 Invoke
+[2026-10-09 19:46:25.225 +0000] longjob i=4 in=full dt=54.760s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.125 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=1 AP=47.1 bat=100] pw=[tstat=1 AP=46.5 bat=100] mem0=1311 mem=1275 minmem=1273 bad=0
+[2026-10-09 19:46:25.336 +0000] longjob 结束 坏 0 次 tstat=1 AP=46.5 bat=100 mem=1287MB

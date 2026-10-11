@@ -1,0 +1,25 @@
+[2026-10-09 18:12:38.159 +0000] longjob 开始 model=lj/cv_192_k11_256.tflite n=10 backend=gpu prec=mixed alt=1 tstat=0 AP=33.8 bat=100 mem=1715MB
+[2026-10-09 18:12:38.239 +0000] tflite-msg File /data/local/tmp/icce/gpucache/lj_13378196763492719523_mixed_5287582036865452726.bin couldn't be opened for reading: No such file or directory
+[2026-10-09 18:12:39.836 +0000] 建图 1.7s 最低 mem=1632MB 现 mem=1648MB
+[2026-10-09 18:12:39.946 +0000] 输入 1 个, X 9437184 个数, 输出 33124 行 × 256, mem=1580MB
+[2026-10-09 18:12:40.084 +0000]   i=0 开始 Invoke
+[2026-10-09 18:13:14.619 +0000] longjob i=0 in=full dt=34.125s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.125 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=33.8 bat=100] pw=[tstat=0 AP=36.7 bat=100] mem0=1511 mem=1485 minmem=1476 bad=0
+[2026-10-09 18:13:24.751 +0000]   i=1 开始 Invoke
+[2026-10-09 18:13:59.111 +0000] longjob i=1 in=half dt=33.952s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.0625 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=34.2 bat=100] pw=[tstat=0 AP=36.6 bat=100] mem0=1486 mem=1483 minmem=1476 bad=0
+[2026-10-09 18:14:09.231 +0000]   i=2 开始 Invoke
+[2026-10-09 18:14:43.703 +0000] longjob i=2 in=full dt=34.061s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.125 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=35.8 bat=100] pw=[tstat=0 AP=37.3 bat=100] mem0=1496 mem=1494 minmem=1476 bad=0
+[2026-10-09 18:14:53.827 +0000]   i=3 开始 Invoke
+[2026-10-09 18:15:27.771 +0000] longjob i=3 in=half dt=33.538s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.0625 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=34.8 bat=100] pw=[tstat=0 AP=36.8 bat=100] mem0=1492 mem=1506 minmem=1476 bad=0
+[2026-10-09 18:15:37.895 +0000]   i=4 开始 Invoke
+[2026-10-09 18:16:12.421 +0000] longjob i=4 in=full dt=34.112s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.125 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=35.4 bat=100] pw=[tstat=0 AP=37.1 bat=100] mem0=1504 mem=1504 minmem=1476 bad=0
+[2026-10-09 18:16:22.542 +0000]   i=5 开始 Invoke
+[2026-10-09 18:16:56.814 +0000] longjob i=5 in=half dt=33.863s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.0625 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=35.3 bat=100] pw=[tstat=0 AP=37.7 bat=100] mem0=1504 mem=1502 minmem=1476 bad=0
+[2026-10-09 18:17:06.939 +0000]   i=6 开始 Invoke
+[2026-10-09 18:17:41.430 +0000] longjob i=6 in=full dt=34.081s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.125 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=35.7 bat=100] pw=[tstat=0 AP=36.9 bat=100] mem0=1501 mem=1500 minmem=1476 bad=0
+[2026-10-09 18:17:51.553 +0000]   i=7 开始 Invoke
+[2026-10-09 18:18:26.031 +0000] longjob i=7 in=half dt=34.069s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.0625 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=36.7 bat=100] pw=[tstat=0 AP=37.4 bat=100] mem0=1499 mem=1506 minmem=1458 bad=0
+[2026-10-09 18:18:36.157 +0000]   i=8 开始 Invoke
+[2026-10-09 18:19:10.465 +0000] longjob i=8 in=full dt=33.900s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.125 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=35.8 bat=100] pw=[tstat=0 AP=37.9 bat=100] mem0=1507 mem=1507 minmem=1458 bad=0
+[2026-10-09 18:19:20.587 +0000]   i=9 开始 Invoke
+[2026-10-09 18:19:55.277 +0000] longjob i=9 in=half dt=34.276s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.407e-08 ref_maxdiff=0.0625 badrow=0/33124 first=-1 last=-1 maxrel=0.000278 same_prev=0 pw0=[tstat=0 AP=37.4 bat=100] pw=[tstat=0 AP=37.3 bat=100] mem0=1513 mem=1510 minmem=1458 bad=0
+[2026-10-09 18:20:05.377 +0000] longjob 结束 坏 0 次 tstat=0 AP=35.5 bat=100 mem=1510MB

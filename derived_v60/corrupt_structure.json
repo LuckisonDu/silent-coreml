@@ -1,0 +1,24 @@
+{
+ "整块": {
+  "n": 602,
+  "tail_to_end": 602,
+  "suffix_bad_frac_median": 0.993,
+  "suffix_bad_frac_p10": 0.978,
+  "n_first_after_5pct": 371,
+  "bad_frac_median": 0.868,
+  "first_pos_median": 0.125,
+  "first_pos_min": 0.0,
+  "first_pos_max": 0.875
+ },
+ "分段": {
+  "n": 90,
+  "tail_to_end": 77,
+  "suffix_bad_frac_median": 0.983,
+  "suffix_bad_frac_p10": 0.426,
+  "n_first_after_5pct": 80,
+  "bad_frac_median": 0.37,
+  "first_pos_median": 0.5,
+  "first_pos_min": 0.0,
+  "first_pos_max": 0.875
+ }
+}

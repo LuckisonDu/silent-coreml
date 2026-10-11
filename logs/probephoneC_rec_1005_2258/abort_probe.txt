@@ -1,0 +1,252 @@
+[2026-10-06 05:00:41 +0000] abort-probe 开始 档=704x1280f32p iters=100 T=11440 输入=fw_dump 发热 0 ui压力=false 恢复=
+[2026-10-06 05:00:59 +0000] abort-probe i=0 th=0 bat=60 dt=13.01s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:01:16 +0000] abort-probe i=1 th=0 bat=60 dt=12.63s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:01:33 +0000] abort-probe i=2 th=0 bat=60 dt=12.62s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:01:49 +0000] abort-probe i=3 th=0 bat=60 dt=12.90s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:02:08 +0000] abort-probe i=4 th=1 bat=60 dt=14.07s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:02:25 +0000] abort-probe i=5 th=1 bat=60 dt=13.68s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:02:43 +0000] abort-probe i=6 th=2 bat=60 dt=14.57s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:03:03 +0000] abort-probe i=7 th=2 bat=60 dt=14.71s threw=- oslog=GPU 命令缓冲被系统掐断 1 次(影响交互 1 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.8747 amax=59 ref_1mcos=2.096e-03 ref_maxdiff=14.16 first_1mcos=2.096e-03 badtok=1528/11440 first=9856 last=11439 runs=56
+[2026-10-06 05:03:24 +0000] abort-probe i=8 th=2 bat=60 dt=17.42s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:03:44 +0000] abort-probe i=9 th=2 bat=60 dt=15.65s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:04:02 +0000] abort-probe i=10 th=2 bat=60 dt=15.03s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:04:26 +0000] abort-probe i=11 th=2 bat=60 dt=19.53s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:04:45 +0000] abort-probe i=12 th=2 bat=60 dt=15.55s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:05:08 +0000] abort-probe i=13 th=2 bat=60 dt=18.79s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:05:27 +0000] abort-probe i=14 th=2 bat=60 dt=15.52s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:05:49 +0000] abort-probe i=15 th=2 bat=60 dt=18.48s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:06:12 +0000] abort-probe i=16 th=2 bat=60 dt=18.94s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:06:37 +0000] abort-probe i=17 th=2 bat=60 dt=20.34s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:07:01 +0000] abort-probe i=18 th=2 bat=60 dt=20.17s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:07:23 +0000] abort-probe i=19 th=2 bat=60 dt=16.93s threw=- oslog=GPU 命令缓冲被系统掐断 3 次(影响交互 3 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.8766 amax=136 ref_1mcos=2.354e-01 ref_maxdiff=93.53 first_1mcos=2.354e-01 badtok=8548/11440 first=2860 last=11439 runs=33
+[2026-10-06 05:07:46 +0000] abort-probe i=20 th=2 bat=60 dt=18.83s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9743 amax=136 ref_1mcos=2.048e-01 ref_maxdiff=96.97 first_1mcos=2.048e-01 badtok=8535/11440 first=2860 last=11439 runs=46
+[2026-10-06 05:08:14 +0000] abort-probe i=21 th=2 bat=60 dt=23.54s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:08:44 +0000] abort-probe i=22 th=2 bat=60 dt=26.03s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:09:06 +0000] abort-probe i=23 th=2 bat=60 dt=17.89s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0291 amax=136 ref_1mcos=2.032e-01 ref_maxdiff=96.97 first_1mcos=2.032e-01 badtok=8530/11440 first=2860 last=11439 runs=51
+[2026-10-06 05:09:29 +0000] abort-probe i=24 th=2 bat=60 dt=19.62s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.8954 amax=112 ref_1mcos=9.530e-02 ref_maxdiff=96.97 first_1mcos=9.530e-02 badtok=4254/11440 first=7150 last=11439 runs=36
+[2026-10-06 05:10:01 +0000] abort-probe i=25 th=2 bat=60 dt=27.49s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:10:24 +0000] abort-probe i=26 th=2 bat=60 dt=18.54s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0083 amax=136 ref_1mcos=2.234e-01 ref_maxdiff=96.97 first_1mcos=2.234e-01 badtok=9955/11440 first=1430 last=11439 runs=56
+[2026-10-06 05:10:45 +0000] abort-probe i=27 th=2 bat=60 dt=17.79s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0172 amax=136 ref_1mcos=2.105e-01 ref_maxdiff=96.97 first_1mcos=2.105e-01 badtok=9937/11440 first=1430 last=11439 runs=72
+[2026-10-06 05:11:09 +0000] abort-probe i=28 th=2 bat=60 dt=16.76s threw=- oslog=GPU 命令缓冲被系统掐断 1 次(影响交互 1 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9413 amax=59 ref_1mcos=1.023e-02 ref_maxdiff=14.16 first_1mcos=1.023e-02 badtok=9388/11440 first=1920 last=11439 runs=129
+[2026-10-06 05:11:33 +0000] abort-probe i=29 th=2 bat=60 dt=20.24s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0203 amax=136 ref_1mcos=2.086e-01 ref_maxdiff=96.97 first_1mcos=2.086e-01 badtok=9893/11440 first=1430 last=11439 runs=115
+[2026-10-06 05:11:54 +0000] abort-probe i=30 th=2 bat=60 dt=16.95s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9715 amax=136 ref_1mcos=1.952e-01 ref_maxdiff=96.97 first_1mcos=1.952e-01 badtok=8530/11440 first=2860 last=11439 runs=51
+[2026-10-06 05:12:21 +0000] abort-probe i=31 th=2 bat=60 dt=22.84s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9196 amax=120 ref_1mcos=1.048e-01 ref_maxdiff=96.97 first_1mcos=1.048e-01 badtok=4256/11440 first=7150 last=11439 runs=35
+[2026-10-06 05:12:35 +0000] abort-probe i=32 th=2 bat=60 dt=9.56s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=0.9196 amax=120 ref_1mcos=1.048e-01 ref_maxdiff=96.97 first_1mcos=1.048e-01 badtok=4256/11440 first=7150 last=11439 runs=35
+[2026-10-06 05:13:01 +0000] abort-probe i=33 th=2 bat=60 dt=20.60s threw=- oslog=GPU 命令缓冲被系统掐断 3 次(影响交互 3 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.7370 amax=136 ref_1mcos=2.632e-01 ref_maxdiff=93.53 first_1mcos=2.632e-01 badtok=8559/11440 first=2860 last=11439 runs=21
+[2026-10-06 05:13:34 +0000] abort-probe i=34 th=2 bat=60 dt=29.46s threw=- oslog=GPU 命令缓冲被系统掐断 4 次(影响交互 0 / 连带丢弃 4) zero=0.0000 naninf=0 rms=0.7370 amax=136 ref_1mcos=2.632e-01 ref_maxdiff=93.53 first_1mcos=2.632e-01 badtok=8559/11440 first=2860 last=11439 runs=21
+[2026-10-06 05:13:56 +0000] abort-probe i=35 th=2 bat=60 dt=14.10s threw=- oslog=GPU 命令缓冲被系统掐断 3 次(影响交互 3 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.6047 amax=51.6 ref_1mcos=2.782e-01 ref_maxdiff=73.89 first_1mcos=2.782e-01 badtok=11389/11440 first=0 last=11439 runs=51
+[2026-10-06 05:14:16 +0000] abort-probe i=36 th=2 bat=60 dt=15.66s threw=- oslog=GPU 命令缓冲被系统掐断 8 次(影响交互 2 / 连带丢弃 6) zero=0.0000 naninf=0 rms=0.6047 amax=51.6 ref_1mcos=2.782e-01 ref_maxdiff=73.89 first_1mcos=2.782e-01 badtok=11389/11440 first=0 last=11439 runs=51
+[2026-10-06 05:14:41 +0000] abort-probe i=37 th=2 bat=60 dt=20.06s threw=- oslog=GPU 命令缓冲被系统掐断 3 次(影响交互 3 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.8796 amax=136 ref_1mcos=2.289e-01 ref_maxdiff=93.53 first_1mcos=2.289e-01 badtok=8544/11440 first=2860 last=11439 runs=35
+[2026-10-06 05:15:05 +0000] abort-probe i=38 th=2 bat=60 dt=20.51s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9348 amax=119 ref_1mcos=1.685e-01 ref_maxdiff=96.97 first_1mcos=1.685e-01 badtok=7110/11440 first=4290 last=11439 runs=41
+[2026-10-06 05:15:15 +0000] abort-probe i=39 th=2 bat=60 dt=7.25s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=0.9348 amax=119 ref_1mcos=1.685e-01 ref_maxdiff=96.97 first_1mcos=1.685e-01 badtok=7110/11440 first=4290 last=11439 runs=41
+[2026-10-06 05:15:34 +0000] abort-probe i=40 th=2 bat=60 dt=15.52s threw=- oslog=GPU 命令缓冲被系统掐断 8 次(影响交互 2 / 连带丢弃 6) zero=0.0000 naninf=0 rms=0.9348 amax=119 ref_1mcos=1.685e-01 ref_maxdiff=96.97 first_1mcos=1.685e-01 badtok=7110/11440 first=4290 last=11439 runs=41
+[2026-10-06 05:15:55 +0000] abort-probe i=41 th=2 bat=60 dt=17.03s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9822 amax=136 ref_1mcos=1.848e-01 ref_maxdiff=96.97 first_1mcos=1.848e-01 badtok=8482/11440 first=2860 last=11439 runs=97
+[2026-10-06 05:16:18 +0000] abort-probe i=42 th=2 bat=60 dt=17.84s threw=- oslog=GPU 命令缓冲被系统掐断 1 次(影响交互 1 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9291 amax=52.6 ref_1mcos=1.997e-02 ref_maxdiff=22.73 first_1mcos=1.997e-02 badtok=11265/11440 first=0 last=11439 runs=171
+[2026-10-06 05:16:53 +0000] abort-probe i=43 th=2 bat=60 dt=30.16s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:17:28 +0000] abort-probe i=44 th=2 bat=60 dt=30.16s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:17:55 +0000] abort-probe i=45 th=2 bat=60 dt=23.55s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:18:31 +0000] abort-probe i=46 th=2 bat=60 dt=29.48s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:18:57 +0000] abort-probe i=47 th=2 bat=60 dt=20.57s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0657 amax=136 ref_1mcos=2.248e-01 ref_maxdiff=96.97 first_1mcos=2.248e-01 badtok=9949/11440 first=1430 last=11439 runs=62
+[2026-10-06 05:19:25 +0000] abort-probe i=48 th=2 bat=60 dt=21.30s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0463 amax=136 ref_1mcos=2.345e-01 ref_maxdiff=96.97 first_1mcos=2.345e-01 badtok=11270/11440 first=0 last=11439 runs=160
+[2026-10-06 05:19:48 +0000] abort-probe i=49 th=2 bat=60 dt=19.58s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0649 amax=136 ref_1mcos=2.255e-01 ref_maxdiff=96.97 first_1mcos=2.255e-01 badtok=9950/11440 first=1430 last=11439 runs=61
+[2026-10-06 05:20:22 +0000] abort-probe i=50 th=2 bat=60 dt=27.40s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.8230 amax=59 ref_1mcos=5.378e-02 ref_maxdiff=68.05 first_1mcos=5.378e-02 badtok=2130/11440 first=9280 last=11439 runs=28
+[2026-10-06 05:20:46 +0000] abort-probe i=51 th=2 bat=60 dt=19.29s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0497 amax=136 ref_1mcos=2.363e-01 ref_maxdiff=96.97 first_1mcos=2.363e-01 badtok=11316/11440 first=0 last=11439 runs=117
+[2026-10-06 05:21:15 +0000] abort-probe i=52 th=2 bat=60 dt=22.38s threw=- oslog=GPU 命令缓冲被系统掐断 1 次(影响交互 1 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9271 amax=59 ref_1mcos=9.070e-03 ref_maxdiff=14.16 first_1mcos=9.070e-03 badtok=7663/11440 first=3648 last=11439 runs=126
+[2026-10-06 05:21:40 +0000] abort-probe i=53 th=2 bat=60 dt=20.85s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0095 amax=136 ref_1mcos=2.265e-01 ref_maxdiff=96.97 first_1mcos=2.265e-01 badtok=9952/11440 first=1430 last=11439 runs=59
+[2026-10-06 05:22:05 +0000] abort-probe i=54 th=2 bat=60 dt=21.14s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9515 amax=119 ref_1mcos=1.513e-01 ref_maxdiff=96.97 first_1mcos=1.513e-01 badtok=5685/11440 first=5720 last=11439 runs=36
+[2026-10-06 05:22:33 +0000] abort-probe i=55 th=2 bat=60 dt=22.90s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0527 amax=136 ref_1mcos=2.278e-01 ref_maxdiff=96.97 first_1mcos=2.278e-01 badtok=9949/11440 first=1430 last=11439 runs=62
+[2026-10-06 05:23:06 +0000] abort-probe i=56 th=2 bat=60 dt=28.13s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.8932 amax=59 ref_1mcos=9.129e-03 ref_maxdiff=21.34 first_1mcos=9.129e-03 badtok=5902/11440 first=5376 last=11439 runs=154
+[2026-10-06 05:23:27 +0000] abort-probe i=57 th=2 bat=60 dt=14.53s threw=- oslog=GPU 命令缓冲被系统掐断 3 次(影响交互 3 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.4966 amax=49.7 ref_1mcos=3.625e-01 ref_maxdiff=73.89 first_1mcos=3.625e-01 badtok=11401/11440 first=0 last=11439 runs=39
+[2026-10-06 05:23:51 +0000] abort-probe i=58 th=2 bat=60 dt=19.22s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0085 amax=136 ref_1mcos=2.246e-01 ref_maxdiff=96.97 first_1mcos=2.246e-01 badtok=9954/11440 first=1430 last=11439 runs=57
+[2026-10-06 05:24:01 +0000] abort-probe i=59 th=2 bat=60 dt=7.23s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=1.0085 amax=136 ref_1mcos=2.246e-01 ref_maxdiff=96.97 first_1mcos=2.246e-01 badtok=9954/11440 first=1430 last=11439 runs=57
+[2026-10-06 05:24:23 +0000] abort-probe i=60 th=2 bat=60 dt=18.55s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9754 amax=136 ref_1mcos=1.908e-01 ref_maxdiff=96.97 first_1mcos=1.908e-01 badtok=8527/11440 first=2860 last=11439 runs=54
+[2026-10-06 05:24:45 +0000] abort-probe i=61 th=2 bat=60 dt=17.78s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0102 amax=136 ref_1mcos=2.272e-01 ref_maxdiff=96.97 first_1mcos=2.272e-01 badtok=9954/11440 first=1430 last=11439 runs=57
+[2026-10-06 05:24:57 +0000] abort-probe i=62 th=2 bat=60 dt=7.25s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=1.0102 amax=136 ref_1mcos=2.272e-01 ref_maxdiff=96.97 first_1mcos=2.272e-01 badtok=9954/11440 first=1430 last=11439 runs=57
+[2026-10-06 05:25:18 +0000] abort-probe i=63 th=2 bat=60 dt=17.49s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9710 amax=136 ref_1mcos=1.958e-01 ref_maxdiff=96.97 first_1mcos=1.958e-01 badtok=8530/11440 first=2860 last=11439 runs=51
+[2026-10-06 05:25:43 +0000] abort-probe i=64 th=2 bat=60 dt=20.89s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:25:53 +0000] abort-probe i=65 th=2 bat=60 dt=7.06s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:26:12 +0000] abort-probe i=66 th=2 bat=60 dt=16.13s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9857 amax=136 ref_1mcos=1.832e-01 ref_maxdiff=96.97 first_1mcos=1.832e-01 badtok=8171/11440 first=3117 last=11439 runs=142
+[2026-10-06 05:26:35 +0000] abort-probe i=67 th=2 bat=60 dt=19.87s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:26:57 +0000] abort-probe i=68 th=2 bat=60 dt=19.37s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:27:07 +0000] abort-probe i=69 th=2 bat=60 dt=7.03s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:27:26 +0000] abort-probe i=70 th=2 bat=60 dt=15.58s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9984 amax=130 ref_1mcos=1.753e-01 ref_maxdiff=96.97 first_1mcos=1.753e-01 badtok=7112/11440 first=4290 last=11439 runs=39
+[2026-10-06 05:27:48 +0000] abort-probe i=71 th=2 bat=60 dt=19.07s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:28:10 +0000] abort-probe i=72 th=2 bat=60 dt=19.01s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:28:31 +0000] abort-probe i=73 th=2 bat=60 dt=18.98s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:28:53 +0000] abort-probe i=74 th=2 bat=60 dt=19.56s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:29:21 +0000] abort-probe i=75 th=2 bat=60 dt=22.36s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:29:53 +0000] abort-probe i=76 th=2 bat=60 dt=24.91s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:30:20 +0000] abort-probe i=77 th=2 bat=60 dt=22.28s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0525 amax=136 ref_1mcos=2.281e-01 ref_maxdiff=96.97 first_1mcos=2.281e-01 badtok=10759/11440 first=288 last=11439 runs=226
+[2026-10-06 05:30:48 +0000] abort-probe i=78 th=2 bat=60 dt=22.16s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0166 amax=136 ref_1mcos=2.113e-01 ref_maxdiff=96.97 first_1mcos=2.113e-01 badtok=9937/11440 first=1430 last=11439 runs=72
+[2026-10-06 05:31:10 +0000] abort-probe i=79 th=2 bat=60 dt=16.97s threw=- oslog=GPU 命令缓冲被系统掐断 3 次(影响交互 3 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.4455 amax=38.2 ref_1mcos=4.483e-01 ref_maxdiff=74.09 first_1mcos=4.483e-01 badtok=11439/11440 first=0 last=11439 runs=2
+[2026-10-06 05:31:38 +0000] abort-probe i=80 th=2 bat=60 dt=23.31s threw=- oslog=GPU 命令缓冲被系统掐断 6 次(影响交互 2 / 连带丢弃 4) zero=0.0000 naninf=0 rms=0.4455 amax=38.2 ref_1mcos=4.483e-01 ref_maxdiff=74.09 first_1mcos=4.483e-01 badtok=11439/11440 first=0 last=11439 runs=2
+[2026-10-06 05:31:57 +0000] abort-probe i=81 th=2 bat=60 dt=14.81s threw=- oslog=GPU 命令缓冲被系统掐断 3 次(影响交互 3 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.5938 amax=51.6 ref_1mcos=2.844e-01 ref_maxdiff=73.89 first_1mcos=2.844e-01 badtok=11393/11440 first=0 last=11439 runs=47
+[2026-10-06 05:32:19 +0000] abort-probe i=82 th=2 bat=60 dt=17.90s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=1.0705 amax=136 ref_1mcos=2.418e-01 ref_maxdiff=96.97 first_1mcos=2.418e-01 badtok=11358/11440 first=0 last=11439 runs=82
+[2026-10-06 05:32:48 +0000] abort-probe i=83 th=2 bat=60 dt=25.31s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:33:13 +0000] abort-probe i=84 th=2 bat=60 dt=21.25s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:33:36 +0000] abort-probe i=85 th=2 bat=60 dt=19.82s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:33:58 +0000] abort-probe i=86 th=2 bat=60 dt=18.97s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:34:20 +0000] abort-probe i=87 th=2 bat=60 dt=18.87s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:34:41 +0000] abort-probe i=88 th=2 bat=60 dt=18.68s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:34:51 +0000] abort-probe i=89 th=2 bat=60 dt=6.96s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:35:10 +0000] abort-probe i=90 th=2 bat=60 dt=15.58s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9375 amax=119 ref_1mcos=1.721e-01 ref_maxdiff=96.97 first_1mcos=1.721e-01 badtok=7108/11440 first=4290 last=11439 runs=43
+[2026-10-06 05:35:20 +0000] abort-probe i=91 th=2 bat=60 dt=7.03s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=0.9375 amax=119 ref_1mcos=1.721e-01 ref_maxdiff=96.97 first_1mcos=1.721e-01 badtok=7108/11440 first=4290 last=11439 runs=43
+[2026-10-06 05:35:40 +0000] abort-probe i=92 th=2 bat=60 dt=15.96s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9837 amax=120 ref_1mcos=1.753e-01 ref_maxdiff=96.97 first_1mcos=1.753e-01 badtok=7112/11440 first=4290 last=11439 runs=39
+[2026-10-06 05:36:02 +0000] abort-probe i=93 th=2 bat=60 dt=19.59s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:36:13 +0000] abort-probe i=94 th=2 bat=60 dt=7.00s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:36:32 +0000] abort-probe i=95 th=2 bat=60 dt=16.06s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9899 amax=126 ref_1mcos=1.786e-01 ref_maxdiff=96.97 first_1mcos=1.786e-01 badtok=7113/11440 first=4290 last=11439 runs=38
+[2026-10-06 05:36:54 +0000] abort-probe i=96 th=2 bat=60 dt=19.78s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:37:04 +0000] abort-probe i=97 th=2 bat=60 dt=7.05s threw=- oslog=GPU 命令缓冲被系统掐断 20 次(影响交互 0 / 连带丢弃 20) zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:37:23 +0000] abort-probe i=98 th=2 bat=60 dt=16.04s threw=- oslog=GPU 命令缓冲被系统掐断 2 次(影响交互 2 / 连带丢弃 0) zero=0.0000 naninf=0 rms=0.9878 amax=136 ref_1mcos=1.823e-01 ref_maxdiff=96.97 first_1mcos=1.823e-01 badtok=7107/11440 first=4290 last=11439 runs=44
+[2026-10-06 05:37:46 +0000] abort-probe i=99 th=2 bat=60 dt=19.74s threw=- oslog=- zero=0.0000 naninf=0 rms=0.8637 amax=59.9 ref_1mcos=0.000e+00 ref_maxdiff=0 first_1mcos=0.000e+00 badtok=0/11440 first=-1 last=-1 runs=0
+[2026-10-06 05:37:47 +0000] abort-probe post i=7 ii=1 iv=0 first_dt=14.63s dur=14.71s
+[2026-10-06 05:37:47 +0000] abort-probe post i=19 ii=3 iv=0 first_dt=4.81s dur=16.93s
+[2026-10-06 05:37:47 +0000] abort-probe post i=20 ii=2 iv=0 first_dt=4.69s dur=18.83s
+[2026-10-06 05:37:47 +0000] abort-probe post i=23 ii=2 iv=0 first_dt=4.82s dur=17.89s
+[2026-10-06 05:37:47 +0000] abort-probe post i=24 ii=2 iv=0 first_dt=7.11s dur=19.62s
+[2026-10-06 05:37:47 +0000] abort-probe post i=26 ii=2 iv=0 first_dt=4.25s dur=18.54s
+[2026-10-06 05:37:47 +0000] abort-probe post i=27 ii=2 iv=0 first_dt=4.64s dur=17.79s
+[2026-10-06 05:37:47 +0000] abort-probe post i=28 ii=1 iv=0 first_dt=16.73s dur=16.76s
+[2026-10-06 05:37:47 +0000] abort-probe post i=29 ii=2 iv=0 first_dt=4.42s dur=20.24s
+[2026-10-06 05:37:47 +0000] abort-probe post i=30 ii=2 iv=0 first_dt=4.67s dur=16.95s
+[2026-10-06 05:37:47 +0000] abort-probe post i=31 ii=2 iv=0 first_dt=7.77s dur=22.84s
+[2026-10-06 05:37:47 +0000] abort-probe post i=32 ii=0 iv=20 first_dt=9.55s dur=9.56s
+[2026-10-06 05:37:47 +0000] abort-probe post i=33 ii=3 iv=0 first_dt=3.94s dur=20.60s
+[2026-10-06 05:37:47 +0000] abort-probe post i=34 ii=0 iv=4 first_dt=29.46s dur=29.46s
+[2026-10-06 05:37:47 +0000] abort-probe post i=35 ii=3 iv=0 first_dt=3.98s dur=14.10s
+[2026-10-06 05:37:47 +0000] abort-probe post i=36 ii=2 iv=6 first_dt=4.18s dur=15.66s
+[2026-10-06 05:37:47 +0000] abort-probe post i=37 ii=3 iv=0 first_dt=4.03s dur=20.06s
+[2026-10-06 05:37:47 +0000] abort-probe post i=38 ii=2 iv=0 first_dt=6.85s dur=20.51s
+[2026-10-06 05:37:47 +0000] abort-probe post i=39 ii=0 iv=20 first_dt=7.28s dur=7.25s
+[2026-10-06 05:37:47 +0000] abort-probe post i=40 ii=2 iv=6 first_dt=3.88s dur=15.52s
+[2026-10-06 05:37:47 +0000] abort-probe post i=41 ii=2 iv=0 first_dt=4.07s dur=17.03s
+[2026-10-06 05:37:47 +0000] abort-probe post i=42 ii=1 iv=0 first_dt=17.81s dur=17.84s
+[2026-10-06 05:37:47 +0000] abort-probe post i=47 ii=2 iv=0 first_dt=3.90s dur=20.57s
+[2026-10-06 05:37:47 +0000] abort-probe post i=48 ii=2 iv=0 first_dt=3.60s dur=21.30s
+[2026-10-06 05:37:47 +0000] abort-probe post i=49 ii=2 iv=0 first_dt=4.48s dur=19.58s
+[2026-10-06 05:37:47 +0000] abort-probe post i=50 ii=2 iv=0 first_dt=10.61s dur=27.40s
+[2026-10-06 05:37:47 +0000] abort-probe post i=51 ii=2 iv=0 first_dt=3.84s dur=19.29s
+[2026-10-06 05:37:47 +0000] abort-probe post i=52 ii=1 iv=0 first_dt=22.31s dur=22.38s
+[2026-10-06 05:37:47 +0000] abort-probe post i=53 ii=2 iv=0 first_dt=4.59s dur=20.85s
+[2026-10-06 05:37:47 +0000] abort-probe post i=54 ii=2 iv=0 first_dt=6.10s dur=21.14s
+[2026-10-06 05:37:47 +0000] abort-probe post i=55 ii=2 iv=0 first_dt=3.61s dur=22.90s
+[2026-10-06 05:37:47 +0000] abort-probe post i=56 ii=2 iv=0 first_dt=12.80s dur=28.13s
+[2026-10-06 05:37:47 +0000] abort-probe post i=57 ii=3 iv=0 first_dt=4.46s dur=14.53s
+[2026-10-06 05:37:47 +0000] abort-probe post i=58 ii=2 iv=0 first_dt=4.54s dur=19.22s
+[2026-10-06 05:37:47 +0000] abort-probe post i=59 ii=0 iv=20 first_dt=7.24s dur=7.23s
+[2026-10-06 05:37:47 +0000] abort-probe post i=60 ii=2 iv=0 first_dt=3.75s dur=18.55s
+[2026-10-06 05:37:47 +0000] abort-probe post i=61 ii=2 iv=0 first_dt=4.31s dur=17.78s
+[2026-10-06 05:37:47 +0000] abort-probe post i=62 ii=0 iv=20 first_dt=7.26s dur=7.25s
+[2026-10-06 05:37:47 +0000] abort-probe post i=63 ii=2 iv=0 first_dt=3.91s dur=17.49s
+[2026-10-06 05:37:47 +0000] abort-probe post i=65 ii=0 iv=20 first_dt=7.07s dur=7.06s
+[2026-10-06 05:37:47 +0000] abort-probe post i=66 ii=2 iv=0 first_dt=3.95s dur=16.13s
+[2026-10-06 05:37:47 +0000] abort-probe post i=69 ii=0 iv=20 first_dt=7.04s dur=7.03s
+[2026-10-06 05:37:47 +0000] abort-probe post i=70 ii=2 iv=0 first_dt=3.96s dur=15.58s
+[2026-10-06 05:37:47 +0000] abort-probe post i=77 ii=2 iv=0 first_dt=3.85s dur=22.28s
+[2026-10-06 05:37:47 +0000] abort-probe post i=78 ii=2 iv=0 first_dt=5.12s dur=22.16s
+[2026-10-06 05:37:47 +0000] abort-probe post i=79 ii=3 iv=0 first_dt=3.48s dur=16.97s
+[2026-10-06 05:37:47 +0000] abort-probe post i=80 ii=2 iv=4 first_dt=3.42s dur=23.31s
+[2026-10-06 05:37:47 +0000] abort-probe post i=81 ii=3 iv=0 first_dt=3.97s dur=14.81s
+[2026-10-06 05:37:47 +0000] abort-probe post i=82 ii=2 iv=0 first_dt=3.70s dur=17.90s
+[2026-10-06 05:37:47 +0000] abort-probe post i=89 ii=0 iv=20 first_dt=7.03s dur=6.96s
+[2026-10-06 05:37:47 +0000] abort-probe post i=90 ii=2 iv=0 first_dt=4.09s dur=15.58s
+[2026-10-06 05:37:47 +0000] abort-probe post i=91 ii=0 iv=20 first_dt=7.09s dur=7.03s
+[2026-10-06 05:37:47 +0000] abort-probe post i=92 ii=2 iv=0 first_dt=4.00s dur=15.96s
+[2026-10-06 05:37:47 +0000] abort-probe post i=94 ii=0 iv=20 first_dt=7.07s dur=7.00s
+[2026-10-06 05:37:47 +0000] abort-probe post i=95 ii=2 iv=0 first_dt=3.96s dur=16.06s
+[2026-10-06 05:37:47 +0000] abort-probe post i=97 ii=0 iv=20 first_dt=7.11s dur=7.05s
+[2026-10-06 05:37:47 +0000] abort-probe post i=98 ii=2 iv=0 first_dt=4.07s dur=16.04s
+[2026-10-06 05:37:47 +0000] abort-probe post 完成 共 315 条 GPU 错误日志
+[2026-10-06 05:37:47 +0000] ✅ abort-probe 完成 发热 2
+[2026-10-06 05:58:24 +0000] abort-probe 开始 档=704x1280f32p iters=90 T=11440 输入=fw_dump 发热 0 ui压力=false 恢复=imm,wait,reload
+[2026-10-06 05:58:40 +0000] abort-recover ep=0 pol=imm th=0 bat=65 attempts=1 final_ok=1 final_flag=0 total=15.4s waited=0s reload=0.0s seq=ok11.2
+[2026-10-06 05:58:56 +0000] abort-recover ep=1 pol=wait th=0 bat=65 attempts=1 final_ok=1 final_flag=0 total=16.0s waited=0s reload=0.0s seq=ok11.9
+[2026-10-06 05:59:12 +0000] abort-recover ep=2 pol=reload th=0 bat=65 attempts=1 final_ok=1 final_flag=0 total=16.3s waited=0s reload=0.0s seq=ok12.6
+[2026-10-06 05:59:29 +0000] abort-recover ep=3 pol=imm th=1 bat=65 attempts=1 final_ok=1 final_flag=0 total=17.1s waited=0s reload=0.0s seq=ok13.0
+[2026-10-06 05:59:47 +0000] abort-recover ep=4 pol=wait th=1 bat=65 attempts=1 final_ok=1 final_flag=0 total=17.1s waited=0s reload=0.0s seq=ok13.0
+[2026-10-06 06:00:04 +0000] abort-recover ep=5 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=17.2s waited=0s reload=0.0s seq=ok13.4
+[2026-10-06 06:00:22 +0000] abort-recover ep=6 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=17.7s waited=0s reload=0.0s seq=ok14.0
+[2026-10-06 06:00:39 +0000] abort-recover ep=7 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=17.2s waited=0s reload=0.0s seq=ok13.4
+[2026-10-06 06:00:57 +0000] abort-recover ep=8 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=18.5s waited=0s reload=0.0s seq=ok14.3
+[2026-10-06 06:01:26 +0000] abort-recover ep=9 pol=imm th=2 bat=65 attempts=2 final_ok=1 final_flag=0 total=28.6s waited=0s reload=0.0s seq=ok/flag6.8,ok15.3
+[2026-10-06 06:01:48 +0000] abort-recover ep=10 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=22.4s waited=0s reload=0.0s seq=ok18.7
+[2026-10-06 06:03:55 +0000] abort-recover ep=11 pol=reload th=2 bat=65 attempts=7 final_ok=1 final_flag=0 total=126.5s waited=0s reload=0.7s seq=BAD/flag20.9,BAD/flag16.8,BAD/flag7.2,BAD/flag17.1,BAD/flag6.9,BAD/flag14.9,ok17.6
+[2026-10-06 06:04:15 +0000] abort-recover ep=12 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=19.8s waited=0s reload=0.0s seq=ok17.1
+[2026-10-06 06:04:34 +0000] abort-recover ep=13 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=19.5s waited=0s reload=0.0s seq=ok16.9
+[2026-10-06 06:04:58 +0000] abort-recover ep=14 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=23.6s waited=0s reload=0.0s seq=ok19.3
+[2026-10-06 06:05:25 +0000] abort-recover ep=15 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=27.4s waited=0s reload=0.0s seq=ok23.4
+[2026-10-06 06:05:50 +0000] abort-recover ep=16 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.8s waited=0s reload=0.0s seq=ok21.0
+[2026-10-06 06:06:18 +0000] abort-recover ep=17 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=27.7s waited=0s reload=0.0s seq=ok21.8
+[2026-10-06 06:07:07 +0000] abort-recover ep=18 pol=imm th=2 bat=65 attempts=2 final_ok=1 final_flag=0 total=48.6s waited=0s reload=0.0s seq=BAD/flag19.9,ok21.5
+[2026-10-06 06:07:30 +0000] abort-recover ep=19 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=23.4s waited=0s reload=0.0s seq=ok20.5
+[2026-10-06 06:09:19 +0000] abort-recover ep=20 pol=reload th=2 bat=65 attempts=5 final_ok=1 final_flag=0 total=109.3s waited=0s reload=0.5s seq=ok/flag7.0,BAD/flag22.4,BAD/flag15.6,BAD/flag17.0,ok24.5
+[2026-10-06 06:09:46 +0000] abort-recover ep=21 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=26.5s waited=0s reload=0.0s seq=ok22.9
+[2026-10-06 06:10:12 +0000] abort-recover ep=22 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=25.7s waited=0s reload=0.0s seq=ok22.2
+[2026-10-06 06:11:08 +0000] abort-recover ep=23 pol=reload th=2 bat=65 attempts=3 final_ok=1 final_flag=0 total=56.3s waited=0s reload=0.2s seq=ok/flag7.0,BAD/flag16.4,ok20.1
+[2026-10-06 06:11:59 +0000] abort-recover ep=24 pol=imm th=2 bat=65 attempts=2 final_ok=1 final_flag=0 total=50.7s waited=0s reload=0.0s seq=BAD/flag17.0,ok22.2
+[2026-10-06 06:13:30 +0000] abort-recover ep=25 pol=wait th=2 bat=65 attempts=3 final_ok=1 final_flag=0 total=90.9s waited=40s reload=0.0s seq=ok/flag7.6,BAD/flag18.0,ok11.3
+[2026-10-06 06:16:08 +0000] abort-recover ep=26 pol=reload th=2 bat=65 attempts=6 final_ok=1 final_flag=0 total=158.6s waited=0s reload=0.7s seq=BAD/flag23.9,BAD/flag19.5,BAD/flag28.6,BAD/flag21.4,BAD/flag17.9,ok22.4
+[2026-10-06 06:16:32 +0000] abort-recover ep=27 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=23.4s waited=0s reload=0.0s seq=ok20.5
+[2026-10-06 06:16:55 +0000] abort-recover ep=28 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=23.4s waited=0s reload=0.0s seq=ok19.9
+[2026-10-06 06:17:17 +0000] abort-recover ep=29 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=22.3s waited=0s reload=0.0s seq=ok19.4
+[2026-10-06 06:17:40 +0000] abort-recover ep=30 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=22.5s waited=0s reload=0.0s seq=ok19.7
+[2026-10-06 06:18:02 +0000] abort-recover ep=31 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=22.5s waited=0s reload=0.0s seq=ok19.6
+[2026-10-06 06:18:27 +0000] abort-recover ep=32 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.4s waited=0s reload=0.0s seq=ok20.6
+[2026-10-06 06:19:13 +0000] abort-recover ep=33 pol=imm th=2 bat=65 attempts=2 final_ok=1 final_flag=0 total=46.6s waited=0s reload=0.0s seq=BAD/flag18.0,ok21.6
+[2026-10-06 06:19:38 +0000] abort-recover ep=34 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.9s waited=0s reload=0.0s seq=ok22.0
+[2026-10-06 06:23:01 +0000] abort-recover ep=35 pol=reload th=2 bat=65 attempts=9 final_ok=1 final_flag=0 total=203.3s waited=0s reload=1.2s seq=ok/flag7.2,BAD/flag22.1,BAD/flag14.7,BAD/flag18.8,BAD/flag19.7,BAD/flag7.3,BAD/flag20.4,BAD/flag25.1,ok25.3
+[2026-10-06 06:23:30 +0000] abort-recover ep=36 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=28.9s waited=0s reload=0.0s seq=ok25.2
+[2026-10-06 06:23:56 +0000] abort-recover ep=37 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=26.0s waited=0s reload=0.0s seq=ok23.0
+[2026-10-06 06:24:21 +0000] abort-recover ep=38 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.8s waited=0s reload=0.0s seq=ok21.8
+[2026-10-06 06:24:45 +0000] abort-recover ep=39 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.0s waited=0s reload=0.0s seq=ok21.1
+[2026-10-06 06:25:13 +0000] abort-recover ep=40 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=27.3s waited=0s reload=0.0s seq=ok20.9
+[2026-10-06 06:29:06 +0000] abort-recover ep=41 pol=reload th=2 bat=65 attempts=9 final_ok=0 final_flag=1 total=233.0s waited=0s reload=1.4s seq=BAD/flag20.3,BAD/flag19.6,BAD/flag20.7,BAD/flag23.5,BAD/flag19.7,BAD/flag21.2,BAD/flag20.3,BAD/flag16.5,BAD/flag25.2
+[2026-10-06 06:32:40 +0000] abort-recover ep=42 pol=imm th=2 bat=65 attempts=9 final_ok=0 final_flag=1 total=214.5s waited=0s reload=0.0s seq=BAD/flag7.6,BAD/flag14.5,BAD/flag20.9,BAD/flag18.1,BAD/flag21.8,BAD/flag22.9,BAD/flag17.4,BAD/flag19.5,BAD/flag20.3
+[2026-10-06 06:34:33 +0000] abort-recover ep=43 pol=wait th=2 bat=65 attempts=3 final_ok=1 final_flag=0 total=113.3s waited=40s reload=0.0s seq=BAD/flag23.0,BAD/flag22.1,ok11.7
+[2026-10-06 06:38:28 +0000] abort-recover ep=44 pol=reload th=2 bat=65 attempts=9 final_ok=1 final_flag=0 total=234.6s waited=0s reload=1.6s seq=BAD/flag17.3,BAD/flag21.4,BAD/flag23.2,BAD/flag14.6,BAD/flag21.4,BAD/flag21.8,BAD/flag20.7,BAD/flag17.8,ok23.1
+[2026-10-06 06:41:29 +0000] abort-recover ep=45 pol=imm th=2 bat=65 attempts=7 final_ok=1 final_flag=0 total=180.9s waited=0s reload=0.0s seq=BAD/flag24.4,BAD/flag24.5,BAD/flag22.3,BAD/flag18.1,BAD/flag13.0,BAD/flag17.7,ok25.0
+[2026-10-06 06:41:55 +0000] abort-recover ep=46 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=25.9s waited=0s reload=0.0s seq=ok22.7
+[2026-10-06 06:42:20 +0000] abort-recover ep=47 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.9s waited=0s reload=0.0s seq=ok21.6
+[2026-10-06 06:42:44 +0000] abort-recover ep=48 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.2s waited=0s reload=0.0s seq=ok21.0
+[2026-10-06 06:43:08 +0000] abort-recover ep=49 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.0s waited=0s reload=0.0s seq=ok20.9
+[2026-10-06 06:43:32 +0000] abort-recover ep=50 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=23.8s waited=0s reload=0.0s seq=ok20.8
+[2026-10-06 06:43:57 +0000] abort-recover ep=51 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=25.5s waited=0s reload=0.0s seq=ok21.6
+[2026-10-06 06:44:38 +0000] abort-recover ep=52 pol=wait th=2 bat=65 attempts=2 final_ok=1 final_flag=0 total=40.8s waited=10s reload=0.0s seq=ok/flag7.1,ok17.5
+[2026-10-06 06:46:03 +0000] abort-recover ep=53 pol=reload th=2 bat=65 attempts=4 final_ok=1 final_flag=0 total=85.1s waited=0s reload=0.3s seq=ok/flag7.1,BAD/flag17.7,BAD/flag22.3,ok23.6
+[2026-10-06 06:47:02 +0000] abort-recover ep=54 pol=imm th=2 bat=65 attempts=3 final_ok=1 final_flag=0 total=58.3s waited=0s reload=0.0s seq=ok/flag7.3,BAD/flag18.5,ok23.0
+[2026-10-06 06:47:27 +0000] abort-recover ep=55 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=25.5s waited=0s reload=0.0s seq=ok22.4
+[2026-10-06 06:47:52 +0000] abort-recover ep=56 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.9s waited=0s reload=0.0s seq=ok21.8
+[2026-10-06 06:48:17 +0000] abort-recover ep=57 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=24.7s waited=0s reload=0.0s seq=ok21.5
+[2026-10-06 06:49:10 +0000] abort-recover ep=58 pol=wait th=2 bat=65 attempts=2 final_ok=1 final_flag=0 total=53.3s waited=10s reload=0.0s seq=BAD/flag17.7,ok18.2
+[2026-10-06 06:49:35 +0000] abort-recover ep=59 pol=reload th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=25.3s waited=0s reload=0.0s seq=ok22.1
+[2026-10-06 06:50:01 +0000] abort-recover ep=60 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=26.0s waited=0s reload=0.0s seq=ok22.7
+[2026-10-06 06:50:27 +0000] abort-recover ep=61 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=25.7s waited=0s reload=0.0s seq=ok22.5
+[2026-10-06 06:54:47 +0000] abort-recover ep=62 pol=reload th=2 bat=65 attempts=9 final_ok=0 final_flag=1 total=259.8s waited=0s reload=1.8s seq=BAD/flag22.3,BAD/flag19.5,BAD/flag21.2,BAD/flag23.5,BAD/flag24.0,BAD/flag24.8,BAD/flag22.9,BAD/flag22.5,BAD/flag18.8
+[2026-10-06 06:55:14 +0000] abort-recover ep=63 pol=imm th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=27.1s waited=0s reload=0.0s seq=ok23.7
+[2026-10-06 06:55:39 +0000] abort-recover ep=64 pol=wait th=2 bat=65 attempts=1 final_ok=1 final_flag=0 total=25.0s waited=0s reload=0.0s seq=ok21.7
+[2026-10-06 06:59:42 +0000] abort-recover ep=65 pol=reload th=2 bat=65 attempts=9 final_ok=0 final_flag=1 total=243.1s waited=0s reload=1.7s seq=BAD/flag18.9,BAD/flag17.1,BAD/flag18.9,BAD/flag24.5,BAD/flag14.7,BAD/flag23.7,BAD/flag20.9,BAD/flag20.5,BAD/flag20.9
+[2026-10-06 07:03:48 +0000] abort-recover ep=66 pol=imm th=2 bat=65 attempts=9 final_ok=0 final_flag=1 total=245.6s waited=0s reload=0.0s seq=BAD/flag19.5,BAD/flag20.9,BAD/flag20.4,BAD/flag20.3,BAD/flag30.4,BAD/flag21.7,BAD/flag18.0,BAD/flag21.6,BAD/flag18.1
+[2026-10-06 07:09:14 +0000] abort-recover ep=67 pol=wait th=2 bat=65 attempts=5 final_ok=1 final_flag=0 total=326.7s waited=220s reload=0.0s seq=BAD/flag16.1,BAD/flag22.5,BAD/flag10.8,BAD/flag15.2,ok14.7
+[2026-10-06 07:09:30 +0000] abort-recover ep=68 pol=reload th=2 bat=70 attempts=1 final_ok=1 final_flag=0 total=15.1s waited=0s reload=0.0s seq=ok11.6
+[2026-10-06 07:09:50 +0000] abort-recover ep=69 pol=imm th=2 bat=70 attempts=1 final_ok=1 final_flag=0 total=20.3s waited=0s reload=0.0s seq=ok14.9
+[2026-10-06 07:10:09 +0000] abort-recover ep=70 pol=wait th=2 bat=70 attempts=1 final_ok=1 final_flag=0 total=19.4s waited=0s reload=0.0s seq=ok13.8
+[2026-10-06 07:10:33 +0000] abort-recover ep=71 pol=reload th=2 bat=70 attempts=1 final_ok=1 final_flag=0 total=23.4s waited=0s reload=0.0s seq=ok17.7
+[2026-10-06 07:14:50 +0000] abort-recover ep=72 pol=imm th=2 bat=70 attempts=9 final_ok=0 final_flag=1 total=257.5s waited=0s reload=0.0s seq=BAD/flag21.3,BAD/flag17.6,BAD/flag35.6,BAD/flag29.2,BAD/flag23.2,BAD/flag20.3,BAD/flag20.0,BAD/flag17.2,BAD/flag7.8
+[2026-10-06 07:18:04 +0000] abort-recover ep=73 pol=wait th=2 bat=70 attempts=4 final_ok=1 final_flag=0 total=193.7s waited=100s reload=0.0s seq=BAD/flag21.2,BAD/flag23.4,BAD/flag10.6,ok11.4
+[2026-10-06 07:18:23 +0000] abort-recover ep=74 pol=reload th=2 bat=70 attempts=1 final_ok=1 final_flag=0 total=18.6s waited=0s reload=0.0s seq=ok13.2
+[2026-10-06 07:23:33 +0000] abort-recover ep=75 pol=imm th=2 bat=70 attempts=9 final_ok=0 final_flag=1 total=309.9s waited=0s reload=0.0s seq=BAD/flag28.6,BAD/flag50.8,BAD/flag36.6,BAD/flag16.6,BAD/flag23.6,BAD/flag18.0,BAD/flag19.4,BAD/flag19.6,BAD/flag16.6
+[2026-10-06 07:25:29 +0000] abort-recover ep=76 pol=wait th=2 bat=70 attempts=3 final_ok=1 final_flag=0 total=115.9s waited=40s reload=0.0s seq=BAD/flag21.9,BAD/flag27.3,ok11.1
+[2026-10-06 07:26:19 +0000] abort-recover ep=77 pol=reload th=2 bat=70 attempts=2 final_ok=1 final_flag=0 total=50.3s waited=0s reload=0.2s seq=BAD/flag17.4,ok24.1
+[2026-10-06 07:30:13 +0000] abort-recover ep=78 pol=imm th=2 bat=70 attempts=9 final_ok=0 final_flag=1 total=234.0s waited=0s reload=0.0s seq=BAD/flag17.9,BAD/flag24.1,BAD/flag18.1,BAD/flag14.5,BAD/flag19.8,BAD/flag19.6,BAD/flag20.8,BAD/flag16.1,BAD/flag18.4
+[2026-10-06 07:33:26 +0000] abort-recover ep=79 pol=wait th=2 bat=70 attempts=4 final_ok=1 final_flag=0 total=192.6s waited=100s reload=0.0s seq=BAD/flag21.8,BAD/flag22.7,BAD/flag10.7,ok11.8
+[2026-10-06 07:33:44 +0000] abort-recover ep=80 pol=reload th=2 bat=70 attempts=1 final_ok=1 final_flag=0 total=18.9s waited=0s reload=0.0s seq=ok13.4
+[2026-10-06 07:38:19 +0000] abort-recover ep=81 pol=imm th=2 bat=70 attempts=9 final_ok=0 final_flag=1 total=274.9s waited=0s reload=0.0s seq=BAD/flag12.6,BAD/flag44.6,BAD/flag29.0,BAD/flag20.8,BAD/flag22.6,BAD/flag20.4,BAD/flag7.4,BAD/flag19.5,BAD/flag18.7
+[2026-10-06 07:40:19 +0000] abort-recover ep=82 pol=wait th=2 bat=70 attempts=3 final_ok=1 final_flag=0 total=119.6s waited=40s reload=0.0s seq=BAD/flag21.6,BAD/flag26.1,ok11.9
+[2026-10-06 07:44:42 +0000] abort-recover ep=83 pol=reload th=2 bat=70 attempts=9 final_ok=0 final_flag=1 total=263.1s waited=0s reload=2.1s seq=BAD/flag22.6,BAD/flag20.6,BAD/flag21.5,BAD/flag23.8,BAD/flag22.3,BAD/flag23.9,BAD/flag21.4,BAD/flag19.1,BAD/flag19.3
+[2026-10-06 07:49:07 +0000] abort-recover ep=84 pol=imm th=2 bat=70 attempts=9 final_ok=0 final_flag=1 total=264.4s waited=0s reload=0.0s seq=BAD/flag21.0,BAD/flag22.2,BAD/flag21.2,BAD/flag21.3,BAD/flag21.1,BAD/flag25.7,BAD/flag21.3,BAD/flag19.8,BAD/flag23.1
+[2026-10-06 07:52:20 +0000] abort-recover ep=85 pol=wait th=2 bat=70 attempts=4 final_ok=1 final_flag=0 total=193.6s waited=100s reload=0.0s seq=BAD/flag20.7,BAD/flag24.2,BAD/flag11.0,ok11.1
+[2026-10-06 07:52:38 +0000] abort-recover ep=86 pol=reload th=2 bat=70 attempts=1 final_ok=1 final_flag=0 total=17.7s waited=0s reload=0.0s seq=ok11.8
+[2026-10-06 07:52:58 +0000] abort-recover ep=87 pol=imm th=2 bat=70 attempts=1 final_ok=1 final_flag=0 total=20.5s waited=0s reload=0.0s seq=ok14.7
+[2026-10-06 07:56:13 +0000] abort-recover ep=88 pol=wait th=2 bat=70 attempts=3 final_ok=1 final_flag=0 total=194.4s waited=40s reload=0.0s seq=BAD/flag42.1,BAD/flag53.9,ok20.5
+[2026-10-06 08:00:44 +0000] abort-recover ep=89 pol=reload th=2 bat=70 attempts=9 final_ok=0 final_flag=1 total=271.3s waited=0s reload=2.2s seq=BAD/flag25.6,BAD/flag15.8,BAD/flag21.7,BAD/flag23.3,BAD/flag21.4,BAD/flag20.6,BAD/flag20.4,BAD/flag20.8,BAD/flag21.0
+[2026-10-06 08:00:44 +0000] ✅ abort-probe 完成 发热 2

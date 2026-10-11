@@ -1,0 +1,24 @@
+[2026-10-09 19:38:22.343 +0000] longjob 开始 model=lj/cv_192_k7_256.tflite n=10 backend=gpu prec=mixed alt=1 tstat=0 AP=48.1 bat=100 mem=1523MB
+[2026-10-09 19:38:22.752 +0000] 建图 0.4s 最低 mem=1440MB 现 mem=1451MB
+[2026-10-09 19:38:22.915 +0000] 输入 1 个, X 9437184 个数, 输出 34596 行 × 256, mem=1383MB
+[2026-10-09 19:38:23.100 +0000]   i=0 开始 Invoke
+[2026-10-09 19:38:37.859 +0000] longjob i=0 in=full dt=14.287s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.0625 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=0 AP=48.1 bat=100] pw=[tstat=1 AP=49.3 bat=100] mem0=1315 mem=1339 minmem=1276 bad=0
+[2026-10-09 19:38:37.978 +0000]   i=1 开始 Invoke
+[2026-10-09 19:38:53.797 +0000] longjob i=1 in=half dt=15.393s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.03125 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=1 AP=49.3 bat=100] pw=[tstat=1 AP=49.1 bat=100] mem0=1319 mem=1339 minmem=1276 bad=0
+[2026-10-09 19:38:53.881 +0000]   i=2 开始 Invoke
+[2026-10-09 19:39:11.744 +0000] longjob i=2 in=full dt=17.370s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.0625 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=1 AP=49.1 bat=100] pw=[tstat=1 AP=49.0 bat=100] mem0=1339 mem=1314 minmem=1276 bad=0
+[2026-10-09 19:39:11.862 +0000]   i=3 开始 Invoke
+[2026-10-09 19:39:30.757 +0000] longjob i=3 in=half dt=18.401s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.03125 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=1 AP=49.0 bat=100] pw=[tstat=1 AP=48.1 bat=100] mem0=1316 mem=1339 minmem=1276 bad=0
+[2026-10-09 19:39:30.859 +0000]   i=4 开始 Invoke
+[2026-10-09 19:39:52.863 +0000] longjob i=4 in=full dt=21.510s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.0625 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=1 AP=48.1 bat=100] pw=[tstat=1 AP=46.5 bat=100] mem0=1338 mem=1346 minmem=1276 bad=0
+[2026-10-09 19:39:52.963 +0000]   i=5 开始 Invoke
+[2026-10-09 19:40:15.145 +0000] longjob i=5 in=half dt=21.688s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.03125 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=1 AP=46.5 bat=100] pw=[tstat=1 AP=46.5 bat=100] mem0=1346 mem=1338 minmem=1276 bad=0
+[2026-10-09 19:40:15.244 +0000]   i=6 开始 Invoke
+[2026-10-09 19:40:37.462 +0000] longjob i=6 in=full dt=21.667s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.0625 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=1 AP=46.5 bat=100] pw=[tstat=1 AP=46.7 bat=100] mem0=1338 mem=1336 minmem=1260 bad=0
+[2026-10-09 19:40:37.565 +0000]   i=7 开始 Invoke
+[2026-10-09 19:41:00.193 +0000] longjob i=7 in=half dt=22.132s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.03125 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=1 AP=46.7 bat=100] pw=[tstat=1 AP=46.9 bat=100] mem0=1336 mem=1329 minmem=1260 bad=0
+[2026-10-09 19:41:00.294 +0000]   i=8 开始 Invoke
+[2026-10-09 19:41:22.395 +0000] longjob i=8 in=full dt=21.606s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.0625 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=1 AP=46.9 bat=100] pw=[tstat=1 AP=46.1 bat=100] mem0=1329 mem=1325 minmem=1260 bad=0
+[2026-10-09 19:41:22.496 +0000]   i=9 开始 Invoke
+[2026-10-09 19:41:44.986 +0000] longjob i=9 in=half dt=21.990s threw=- msgs=0 sentinel=0 naninf=0 zero=0.0001 ref_1mcos=2.490e-08 ref_maxdiff=0.03125 badrow=0/34596 first=-1 last=-1 maxrel=0.00028 same_prev=0 pw0=[tstat=1 AP=46.1 bat=100] pw=[tstat=1 AP=46.0 bat=100] mem0=1325 mem=1325 minmem=1260 bad=0
+[2026-10-09 19:41:45.064 +0000] longjob 结束 坏 0 次 tstat=1 AP=46.0 bat=100 mem=1325MB

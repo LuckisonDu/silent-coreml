@@ -1,0 +1,13 @@
+[2026-10-09 02:41:17 +0000] android-probe 开始 model=m448/sa.tflite:a,c,d;m448/ca.tflite:h,b;m448/ffn.tflite:h,c T=4550 n=2 backend=gpu prec=fp16 api=auto alt=0 tstat=0 AP=40.0 BAT=31.3 bat=100 btemp=313 chg=5 ac=true usb=false mem=1863MB gclk=0 gbusy=  2%
+[2026-10-09 02:41:17 +0000] thermal-zones 
+[2026-10-09 02:41:17 +0000] sys /sys/class/misc/mali0/device/js_timeouts = (读不到)
+[2026-10-09 02:41:17 +0000] sys /sys/class/misc/mali0/device/js_scheduling_period = (读不到)
+[2026-10-09 02:41:17 +0000] sys /sys/class/misc/mali0/device/reset_timeout = (读不到)
+[2026-10-09 02:41:17 +0000] sys /sys/class/misc/mali0/device/gpuinfo = (读不到)
+[2026-10-09 02:41:17 +0000] sys /sys/kernel/gpu/gpu_model = (Unknown Mali GPU)
+[2026-10-09 02:41:17 +0000] sys /sys/kernel/gpu/gpu_max_clock = 1001000
+[2026-10-09 02:41:17 +0000] sys /sys/kernel/gpu/gpu_min_clock = 377000
+[2026-10-09 02:41:17 +0000] 段数 3 reload=0
+[2026-10-09 02:43:10 +0000] 建图 m448/sa.tflite 112.8s 期间最低 mem=1122MB 现 mem=1121MB
+[2026-10-09 02:47:42 +0000] 建图 m448/ca.tflite 272.4s 期间最低 mem=554MB 现 mem=745MB
+[2026-10-09 02:47:46 +0000] mem-guard 触发: MemAvailable 338MB < 350MB, 探针自杀保护手机(这一档在本机装不下)

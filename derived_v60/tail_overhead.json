@@ -1,0 +1,51 @@
+{
+ "fp32_A": {
+  "n": 99,
+  "dt_med": 19.38,
+  "tdt_med": 2.59,
+  "ratio_med": 0.128,
+  "ratio_with_load_med": 0.149
+ },
+ "shipped_A": {
+  "n": 100,
+  "dt_med": 13.96,
+  "tdt_med": 1.68,
+  "ratio_med": 0.12,
+  "ratio_with_load_med": 0.139
+ },
+ "fp32_B": {
+  "n": 60,
+  "dt_med": 18.66,
+  "tdt_med": 2.09,
+  "ratio_med": 0.114,
+  "ratio_with_load_med": 0.138
+ },
+ "fp32_C": {
+  "n": 55,
+  "dt_med": 19.1,
+  "tdt_med": 2.14,
+  "ratio_med": 0.112,
+  "ratio_with_load_med": 0.135
+ },
+ "shipped_A2": {
+  "n": 150,
+  "dt_med": 12.89,
+  "tdt_med": 1.57,
+  "ratio_med": 0.122,
+  "ratio_with_load_med": 0.141
+ },
+ "shipped_B2": {
+  "n": 150,
+  "dt_med": 12.71,
+  "tdt_med": 1.62,
+  "ratio_med": 0.128,
+  "ratio_with_load_med": 0.156
+ },
+ "b16_A": {
+  "n": 100,
+  "dt_med": 20.49,
+  "tdt_med": 2.65,
+  "ratio_med": 0.125,
+  "ratio_with_load_med": 0.15
+ }
+}

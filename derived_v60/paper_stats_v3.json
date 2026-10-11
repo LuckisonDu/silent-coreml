@@ -1,0 +1,1944 @@
+{
+ "fp32_phoneA": {
+  "source": "probe2_1005_1357_phoneA 「开始」2026-10-05 20:25:55 档=704x1280f32p gap=0",
+  "note": "iOS 26.5.2，第 1 轮",
+  "n": 150,
+  "wrong": 31,
+  "wrong_pct": 20.7,
+  "wrong_ci": [
+   14.5,
+   28.0
+  ],
+  "nonzero_wrong": 31,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 26,
+   "II_ok": 1,
+   "IV_wrong": 5,
+   "IV_ok": 19,
+   "none_wrong": 0,
+   "none_ok": 99
+  },
+  "log_either_recall": "31/31",
+  "log_either_false_alarm": "20/119",
+  "log_II_recall": "26/31",
+  "log_II_false_alarm": "1/119",
+  "dt_median": 20.5,
+  "dt_range": [
+   6.4,
+   27.1
+  ],
+  "thermal_serious": 150,
+  "battery_range": [
+   -1,
+   -1
+  ]
+ },
+ "fp32_phoneB": {
+  "source": "probephoneB2_1005_1910 「开始」2026-10-06 02:11:58 档=704x1280f32p gap=0",
+  "note": "iOS 26.3.1",
+  "n": 100,
+  "wrong": 10,
+  "wrong_pct": 10.0,
+  "wrong_ci": [
+   4.9,
+   17.6
+  ],
+  "nonzero_wrong": 10,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 9,
+   "II_ok": 0,
+   "IV_wrong": 1,
+   "IV_ok": 10,
+   "none_wrong": 0,
+   "none_ok": 80
+  },
+  "log_either_recall": "10/10",
+  "log_either_false_alarm": "10/90",
+  "log_II_recall": "9/10",
+  "log_II_false_alarm": "0/90",
+  "dt_median": 19.0,
+  "dt_range": [
+   6.7,
+   25.7
+  ],
+  "thermal_serious": 92,
+  "battery_range": [
+   100,
+   100
+  ]
+ },
+ "fp32_phoneC": {
+  "source": "probephoneC_1005_2159 「开始」2026-10-06 05:00:41 档=704x1280f32p gap=0",
+  "note": "iOS 26.6.2",
+  "n": 100,
+  "wrong": 52,
+  "wrong_pct": 52.0,
+  "wrong_ci": [
+   41.8,
+   62.1
+  ],
+  "nonzero_wrong": 52,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 46,
+   "II_ok": 0,
+   "IV_wrong": 6,
+   "IV_ok": 5,
+   "none_wrong": 0,
+   "none_ok": 43
+  },
+  "log_either_recall": "52/52",
+  "log_either_false_alarm": "5/48",
+  "log_II_recall": "46/52",
+  "log_II_false_alarm": "0/48",
+  "dt_median": 18.8,
+  "dt_range": [
+   7.0,
+   30.2
+  ],
+  "thermal_serious": 94,
+  "battery_range": [
+   60,
+   60
+  ]
+ },
+ "fp32_three_phones": {
+  "note": "三台合计",
+  "n": 350,
+  "wrong": 93,
+  "wrong_pct": 26.6,
+  "wrong_ci": [
+   22.0,
+   31.5
+  ],
+  "nonzero_wrong": 93,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 81,
+   "II_ok": 1,
+   "IV_wrong": 12,
+   "IV_ok": 34,
+   "none_wrong": 0,
+   "none_ok": 222
+  },
+  "log_either_recall": "93/93",
+  "log_either_false_alarm": "35/257",
+  "log_II_recall": "81/93",
+  "log_II_false_alarm": "1/257",
+  "dt_median": 19.4,
+  "dt_range": [
+   6.4,
+   30.2
+  ],
+  "thermal_serious": 336,
+  "battery_range": [
+   -1,
+   100
+  ]
+ },
+ "ui_phoneA_a": {
+  "source": "probe3_1005_1656_phoneA 「开始」2026-10-05 21:19:44 档=704x1280f32p gap=0",
+  "note": "30 Hz 刷新，18 次后没电关机",
+  "n": 18,
+  "wrong": 6,
+  "wrong_pct": 33.3,
+  "wrong_ci": [
+   13.3,
+   59.0
+  ],
+  "nonzero_wrong": 6,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 6,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 1,
+   "none_wrong": 0,
+   "none_ok": 11
+  },
+  "log_either_recall": "6/6",
+  "log_either_false_alarm": "1/12",
+  "log_II_recall": "6/6",
+  "log_II_false_alarm": "0/12",
+  "dt_median": 23.9,
+  "dt_range": [
+   13.8,
+   39.5
+  ],
+  "thermal_serious": 18,
+  "battery_range": [
+   -1,
+   -1
+  ]
+ },
+ "ui_phoneA_b": {
+  "source": "probe3_1005_1656_phoneA 「开始」2026-10-06 00:03:22 档=704x1280f32p gap=0",
+  "note": "30 Hz 刷新第二轮，20 次；2 次错而窗口内无记录",
+  "n": 20,
+  "wrong": 4,
+  "wrong_pct": 20.0,
+  "wrong_ci": [
+   5.7,
+   43.7
+  ],
+  "nonzero_wrong": 4,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 2,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 1,
+   "none_wrong": 2,
+   "none_ok": 15
+  },
+  "log_either_recall": "2/4",
+  "log_either_false_alarm": "1/16",
+  "log_II_recall": "2/4",
+  "log_II_false_alarm": "0/16",
+  "dt_median": 12.6,
+  "dt_range": [
+   6.7,
+   25.3
+  ],
+  "thermal_serious": 16,
+  "battery_range": [
+   30,
+   30
+  ]
+ },
+ "prod_4s_phoneB": {
+  "source": "probephoneB3_1005_2126 「开始」2026-10-06 04:28:55 档=704x1280m_t2 gap=0",
+  "note": "704x1280m_t2，现役 4 秒档",
+  "n": 100,
+  "wrong": 0,
+  "wrong_pct": 0.0,
+  "wrong_ci": [
+   0.0,
+   3.6
+  ],
+  "nonzero_wrong": 0,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 0,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 100
+  },
+  "log_either_recall": "0/0",
+  "log_either_false_alarm": "0/100",
+  "log_II_recall": "0/0",
+  "log_II_false_alarm": "0/100",
+  "dt_median": 12.7,
+  "dt_range": [
+   9.1,
+   17.7
+  ],
+  "thermal_serious": 87,
+  "battery_range": [
+   95,
+   100
+  ]
+ },
+ "prod_5s_phoneB": {
+  "source": "probephoneB61_1006_0721 「开始」2026-10-06 14:27:40 档=704x1280mf61p gap=0",
+  "note": "5 秒 704x1280mf61p（热机后）",
+  "n": 100,
+  "wrong": 0,
+  "wrong_pct": 0.0,
+  "wrong_ci": [
+   0.0,
+   3.6
+  ],
+  "nonzero_wrong": 0,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 0,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 10,
+   "none_wrong": 0,
+   "none_ok": 90
+  },
+  "log_either_recall": "0/0",
+  "log_either_false_alarm": "10/100",
+  "log_II_recall": "0/0",
+  "log_II_false_alarm": "0/100",
+  "dt_median": 15.9,
+  "dt_range": [
+   6.5,
+   19.4
+  ],
+  "thermal_serious": 95,
+  "battery_range": [
+   100,
+   100
+  ]
+ },
+ "prod_4s_phoneA": {
+  "source": "probephoneAtail_1007_0003 「开始」2026-10-07 08:12:54 档=704x1280m gap=0",
+  "note": "704x1280m 现役 4 秒档，热（同轮 fp32 93% 错），带末尾校验",
+  "n": 100,
+  "wrong": 3,
+  "wrong_pct": 3.0,
+  "wrong_ci": [
+   0.6,
+   8.5
+  ],
+  "nonzero_wrong": 3,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 3,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 97
+  },
+  "log_either_recall": "3/3",
+  "log_either_false_alarm": "0/97",
+  "log_II_recall": "3/3",
+  "log_II_false_alarm": "0/97",
+  "dt_median": 14.0,
+  "dt_range": [
+   10.3,
+   16.7
+  ],
+  "thermal_serious": 100,
+  "battery_range": [
+   85,
+   85
+  ]
+ },
+ "prod_5s_phoneC": {
+  "source": "probephoneC61_1006_0721 「开始」2026-10-06 14:30:33 档=704x1280mf61p gap=0",
+  "note": "5 秒，跑到 93 次停",
+  "n": 93,
+  "wrong": 1,
+  "wrong_pct": 1.1,
+  "wrong_ci": [
+   0.0,
+   5.8
+  ],
+  "nonzero_wrong": 1,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 1,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 8,
+   "none_wrong": 0,
+   "none_ok": 84
+  },
+  "log_either_recall": "1/1",
+  "log_either_false_alarm": "8/92",
+  "log_II_recall": "1/1",
+  "log_II_false_alarm": "0/92",
+  "dt_median": 17.8,
+  "dt_range": [
+   6.5,
+   19.8
+  ],
+  "thermal_serious": 93,
+  "battery_range": [
+   95,
+   100
+  ]
+ },
+ "prod_4s_phoneA2": {
+  "source": "probephoneAshipped_1007_0753 「开始」2026-10-07 15:00:38 档=704x1280m gap=0",
+  "note": "实验 I：704x1280m 150 次全部热起步，带 mt64；手机重启后约 3 h",
+  "n": 150,
+  "wrong": 0,
+  "wrong_pct": 0.0,
+  "wrong_ci": [
+   0.0,
+   2.4
+  ],
+  "nonzero_wrong": 0,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 0,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 150
+  },
+  "log_either_recall": "0/0",
+  "log_either_false_alarm": "0/150",
+  "log_II_recall": "0/0",
+  "log_II_false_alarm": "0/150",
+  "dt_median": 12.9,
+  "dt_range": [
+   10.1,
+   15.0
+  ],
+  "thermal_serious": 150,
+  "battery_range": [
+   80,
+   80
+  ]
+ },
+ "prod_4s_phoneB2": {
+  "source": "probephoneBshipped_1007_0800 「开始」2026-10-07 15:08:36 档=704x1280m gap=0",
+  "note": "实验 I：704x1280m 150 次全部热起步，带 mt64",
+  "n": 150,
+  "wrong": 0,
+  "wrong_pct": 0.0,
+  "wrong_ci": [
+   0.0,
+   2.4
+  ],
+  "nonzero_wrong": 0,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 0,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 150
+  },
+  "log_either_recall": "0/0",
+  "log_either_false_alarm": "0/150",
+  "log_II_recall": "0/0",
+  "log_II_false_alarm": "0/150",
+  "dt_median": 12.7,
+  "dt_range": [
+   9.7,
+   13.3
+  ],
+  "thermal_serious": 150,
+  "battery_range": [
+   100,
+   100
+  ]
+ },
+ "ctl576_phoneB": {
+  "source": "probephoneB576_1005_2157 「开始」2026-10-06 05:04:24 档=576x1024f32p gap=0",
+  "note": "576x1024 fp32，紧接 704 热机 20 次",
+  "n": 100,
+  "wrong": 0,
+  "wrong_pct": 0.0,
+  "wrong_ci": [
+   0.0,
+   3.6
+  ],
+  "nonzero_wrong": 0,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 0,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 100
+  },
+  "log_either_recall": "0/0",
+  "log_either_false_alarm": "0/100",
+  "log_II_recall": "0/0",
+  "log_II_false_alarm": "0/100",
+  "dt_median": 11.3,
+  "dt_range": [
+   6.4,
+   15.9
+  ],
+  "thermal_serious": 100,
+  "battery_range": [
+   95,
+   95
+  ]
+ },
+ "ctl576_phoneA": {
+  "source": "probephoneA4_1005_1948 「开始」2026-10-06 03:30:02 档=576x1024f32p gap=0",
+  "note": "凉机，20 次后被打断",
+  "n": 20,
+  "wrong": 0,
+  "wrong_pct": 0.0,
+  "wrong_ci": [
+   0.0,
+   16.8
+  ],
+  "nonzero_wrong": 0,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 0,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 20
+  },
+  "log_either_recall": "0/0",
+  "log_either_false_alarm": "0/20",
+  "log_II_recall": "0/0",
+  "log_II_false_alarm": "0/20",
+  "dt_median": 10.0,
+  "dt_range": [
+   5.9,
+   11.3
+  ],
+  "thermal_serious": 18,
+  "battery_range": [
+   95,
+   100
+  ]
+ },
+ "split_phoneA_whole": {
+  "source": "probephoneA5split_1006_1106 18:15+18:36",
+  "n": 50,
+  "wrong": 20,
+  "wrong_pct": 40.0,
+  "wrong_ci": [
+   26.4,
+   54.8
+  ],
+  "nonzero_wrong": 20,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 20,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 2,
+   "none_wrong": 0,
+   "none_ok": 28
+  },
+  "log_either_recall": "20/20",
+  "log_either_false_alarm": "2/30",
+  "log_II_recall": "20/20",
+  "log_II_false_alarm": "0/30",
+  "dt_median": 17.6,
+  "dt_range": [
+   6.9,
+   25.4
+  ],
+  "thermal_serious": 50,
+  "battery_range": [
+   45,
+   65
+  ]
+ },
+ "split_phoneA_3seg": {
+  "source": "probephoneA5split_1006_1106 18:25+18:47",
+  "n": 50,
+  "wrong": 4,
+  "wrong_pct": 8.0,
+  "wrong_ci": [
+   2.2,
+   19.2
+  ],
+  "nonzero_wrong": 4,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 4,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 46
+  },
+  "log_either_recall": "4/4",
+  "log_either_false_alarm": "0/46",
+  "log_II_recall": "4/4",
+  "log_II_false_alarm": "0/46",
+  "dt_median": 21.2,
+  "dt_range": [
+   13.9,
+   28.3
+  ],
+  "thermal_serious": 50,
+  "battery_range": [
+   40,
+   60
+  ]
+ },
+ "split_phoneA_fisher_p": 0.00031,
+ "gap_phoneB_whole": {
+  "source": "probephoneBgap 20:03+20:42",
+  "n": 40,
+  "wrong": 13,
+  "wrong_pct": 32.5,
+  "wrong_ci": [
+   18.6,
+   49.1
+  ],
+  "nonzero_wrong": 13,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 13,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 4,
+   "none_wrong": 0,
+   "none_ok": 23
+  },
+  "log_either_recall": "13/13",
+  "log_either_false_alarm": "4/27",
+  "log_II_recall": "13/13",
+  "log_II_false_alarm": "0/27",
+  "dt_median": 20.7,
+  "dt_range": [
+   7.0,
+   28.9
+  ],
+  "thermal_serious": 40,
+  "battery_range": [
+   80,
+   80
+  ]
+ },
+ "gap_phoneB_3seg_gap0": {
+  "source": "probephoneBgap 2026-10-06 20:11",
+  "n": 20,
+  "wrong": 3,
+  "wrong_pct": 15.0,
+  "wrong_ci": [
+   3.2,
+   37.9
+  ],
+  "nonzero_wrong": 3,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 3,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 17
+  },
+  "log_either_recall": "3/3",
+  "log_either_false_alarm": "0/17",
+  "log_II_recall": "3/3",
+  "log_II_false_alarm": "0/17",
+  "dt_median": 26.0,
+  "dt_range": [
+   15.0,
+   34.0
+  ],
+  "thermal_serious": 20,
+  "battery_range": [
+   80,
+   80
+  ]
+ },
+ "gap_phoneB_3seg_gap1": {
+  "source": "probephoneBgap 2026-10-06 20:21",
+  "n": 20,
+  "wrong": 2,
+  "wrong_pct": 10.0,
+  "wrong_ci": [
+   1.2,
+   31.7
+  ],
+  "nonzero_wrong": 2,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 2,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 18
+  },
+  "log_either_recall": "2/2",
+  "log_either_false_alarm": "0/18",
+  "log_II_recall": "2/2",
+  "log_II_false_alarm": "0/18",
+  "dt_median": 27.6,
+  "dt_range": [
+   25.1,
+   32.3
+  ],
+  "thermal_serious": 20,
+  "battery_range": [
+   80,
+   80
+  ]
+ },
+ "gap_phoneB_3seg_gap3": {
+  "source": "probephoneBgap 2026-10-06 20:31",
+  "n": 20,
+  "wrong": 20,
+  "wrong_pct": 100.0,
+  "wrong_ci": [
+   83.2,
+   100.0
+  ],
+  "nonzero_wrong": 20,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 20,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 0
+  },
+  "log_either_recall": "20/20",
+  "log_either_false_alarm": "0/0",
+  "log_II_recall": "20/20",
+  "log_II_false_alarm": "0/0",
+  "dt_median": 27.0,
+  "dt_range": [
+   25.9,
+   30.9
+  ],
+  "thermal_serious": 20,
+  "battery_range": [
+   80,
+   80
+  ]
+ },
+ "gap_phoneB_gap3_vs_gap0_fisher_p": 2.6e-08,
+ "qchunk_phoneB_q8": {
+  "source": "probephoneBq_1006_1149 ['2026-10-06 18:57', '2026-10-06 19:26']",
+  "n": 50,
+  "wrong": 14,
+  "wrong_pct": 28.0,
+  "wrong_ci": [
+   16.2,
+   42.5
+  ],
+  "nonzero_wrong": 14,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 12,
+   "II_ok": 2,
+   "IV_wrong": 2,
+   "IV_ok": 5,
+   "none_wrong": 0,
+   "none_ok": 29
+  },
+  "log_either_recall": "14/14",
+  "log_either_false_alarm": "7/36",
+  "log_II_recall": "12/14",
+  "log_II_false_alarm": "2/36",
+  "dt_median": 19.1,
+  "dt_range": [
+   6.9,
+   28.4
+  ],
+  "thermal_serious": 50,
+  "battery_range": [
+   80,
+   80
+  ]
+ },
+ "qchunk_phoneB_q16": {
+  "source": "probephoneBq_1006_1149 ['2026-10-06 19:06', '2026-10-06 19:35']",
+  "n": 50,
+  "wrong": 16,
+  "wrong_pct": 32.0,
+  "wrong_ci": [
+   19.5,
+   46.7
+  ],
+  "nonzero_wrong": 16,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 14,
+   "II_ok": 0,
+   "IV_wrong": 2,
+   "IV_ok": 8,
+   "none_wrong": 0,
+   "none_ok": 26
+  },
+  "log_either_recall": "16/16",
+  "log_either_false_alarm": "8/34",
+  "log_II_recall": "14/16",
+  "log_II_false_alarm": "0/34",
+  "dt_median": 20.0,
+  "dt_range": [
+   7.0,
+   23.6
+  ],
+  "thermal_serious": 50,
+  "battery_range": [
+   80,
+   80
+  ]
+ },
+ "qchunk_phoneB_q32": {
+  "source": "probephoneBq_1006_1149 ['2026-10-06 19:15', '2026-10-06 19:44']",
+  "n": 50,
+  "wrong": 5,
+  "wrong_pct": 10.0,
+  "wrong_ci": [
+   3.3,
+   21.8
+  ],
+  "nonzero_wrong": 5,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 5,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 45
+  },
+  "log_either_recall": "5/5",
+  "log_either_false_alarm": "0/45",
+  "log_II_recall": "5/5",
+  "log_II_false_alarm": "0/45",
+  "dt_median": 21.1,
+  "dt_range": [
+   11.4,
+   28.5
+  ],
+  "thermal_serious": 50,
+  "battery_range": [
+   80,
+   80
+  ]
+ },
+ "qchunk_q8_vs_q32_fisher_p": 0.04,
+ "qchunk_q8_vs_q16_fisher_p": 0.83,
+ "recovery_phoneC": {
+  "source": "probephoneC_rec_1005_2258 abort-recover 行",
+  "imm": {
+   "n": 30,
+   "first_wrong": 11,
+   "needed_rerun": 13,
+   "final_ok": 23,
+   "still_flagged_after_8": 7,
+   "rerun_total_s_median": 214.0
+  },
+  "wait": {
+   "n": 30,
+   "first_wrong": 9,
+   "needed_rerun": 11,
+   "final_ok": 30,
+   "still_flagged_after_8": 0,
+   "rerun_total_s_median": 120.0
+  },
+  "reload": {
+   "n": 30,
+   "first_wrong": 9,
+   "needed_rerun": 13,
+   "final_ok": 25,
+   "still_flagged_after_8": 5,
+   "rerun_total_s_median": 203.0
+  }
+ },
+ "recovery_phoneC_wait_vs_imm_fisher_p": 0.011,
+ "e2e": {
+  "tally": [
+   {
+    "clip": "phoneB_s104_log",
+    "arm": "log",
+    "unhandled_aborts": 0,
+    "log_reruns": 0,
+    "zero_reruns": 8,
+    "trace_seconds": 1922.3,
+    "mp4": true
+   },
+   {
+    "clip": "phoneB_s104_none",
+    "arm": "none",
+    "unhandled_aborts": 12,
+    "log_reruns": 0,
+    "zero_reruns": 0,
+    "trace_seconds": 1831.6,
+    "mp4": true
+   },
+   {
+    "clip": "phoneB_s104_zero",
+    "arm": "zero",
+    "unhandled_aborts": 0,
+    "log_reruns": 0,
+    "zero_reruns": 8,
+    "trace_seconds": 1943.9,
+    "mp4": true
+   },
+   {
+    "clip": "phoneB_s105_log",
+    "arm": "log",
+    "unhandled_aborts": 0,
+    "log_reruns": 0,
+    "zero_reruns": 12,
+    "trace_seconds": 1882.3,
+    "mp4": true
+   },
+   {
+    "clip": "phoneB_s105_none",
+    "arm": "none",
+    "unhandled_aborts": 4,
+    "log_reruns": 0,
+    "zero_reruns": 0,
+    "trace_seconds": 1661.6,
+    "mp4": true
+   },
+   {
+    "clip": "phoneB_s105_zero",
+    "arm": "zero",
+    "unhandled_aborts": 0,
+    "log_reruns": 0,
+    "zero_reruns": 13,
+    "trace_seconds": 1915.8,
+    "mp4": true
+   },
+   {
+    "clip": "phoneA_s101_log",
+    "arm": "log",
+    "unhandled_aborts": 0,
+    "log_reruns": 1,
+    "zero_reruns": 7,
+    "trace_seconds": 1891.0,
+    "mp4": true
+   },
+   {
+    "clip": "phoneA_s101_none",
+    "arm": "none",
+    "unhandled_aborts": 13,
+    "log_reruns": 0,
+    "zero_reruns": 0,
+    "trace_seconds": 1623.0,
+    "mp4": true
+   },
+   {
+    "clip": "phoneA_s101_zero",
+    "arm": "zero",
+    "unhandled_aborts": 0,
+    "log_reruns": 0,
+    "zero_reruns": 7,
+    "trace_seconds": 1853.9,
+    "mp4": true
+   },
+   {
+    "clip": "phoneA_s102_log",
+    "arm": "log",
+    "unhandled_aborts": 0,
+    "log_reruns": 0,
+    "zero_reruns": 7,
+    "trace_seconds": 1807.9,
+    "mp4": true
+   },
+   {
+    "clip": "phoneA_s102_none",
+    "arm": "none",
+    "unhandled_aborts": 11,
+    "log_reruns": 0,
+    "zero_reruns": 0,
+    "trace_seconds": 1655.6,
+    "mp4": true
+   },
+   {
+    "clip": "phoneA_s102_zero",
+    "arm": "zero",
+    "unhandled_aborts": 0,
+    "log_reruns": 0,
+    "zero_reruns": 11,
+    "trace_seconds": 1881.0,
+    "mp4": true
+   },
+   {
+    "clip": "phoneA_s103_log",
+    "arm": "log",
+    "unhandled_aborts": 0,
+    "log_reruns": 0,
+    "zero_reruns": 12,
+    "trace_seconds": 1878.3,
+    "mp4": true
+   },
+   {
+    "clip": "phoneA_s103_none",
+    "arm": "none",
+    "unhandled_aborts": 1,
+    "log_reruns": 0,
+    "zero_reruns": 0,
+    "trace_seconds": 1669.0,
+    "mp4": true
+   },
+   {
+    "clip": "phoneA_s103_zero",
+    "arm": "zero",
+    "unhandled_aborts": 0,
+    "log_reruns": 0,
+    "zero_reruns": 4,
+    "trace_seconds": 1729.4,
+    "mp4": true
+   }
+  ],
+  "compare": [
+   {
+    "seed": "phoneB_s104",
+    "a": "none",
+    "b": "zero",
+    "psnr_median": 12.3,
+    "psnr_min": 11.0,
+    "identical": false
+   },
+   {
+    "seed": "phoneB_s104",
+    "a": "none",
+    "b": "log",
+    "psnr_median": 12.3,
+    "psnr_min": 11.0,
+    "identical": false
+   },
+   {
+    "seed": "phoneB_s104",
+    "a": "zero",
+    "b": "log",
+    "psnr_median": 138.1,
+    "psnr_min": 138.1,
+    "identical": true
+   },
+   {
+    "seed": "phoneB_s105",
+    "a": "none",
+    "b": "zero",
+    "psnr_median": 14.8,
+    "psnr_min": 13.3,
+    "identical": false
+   },
+   {
+    "seed": "phoneB_s105",
+    "a": "none",
+    "b": "log",
+    "psnr_median": 14.8,
+    "psnr_min": 13.3,
+    "identical": false
+   },
+   {
+    "seed": "phoneB_s105",
+    "a": "zero",
+    "b": "log",
+    "psnr_median": 138.1,
+    "psnr_min": 138.1,
+    "identical": true
+   },
+   {
+    "seed": "phoneA_s101",
+    "a": "none",
+    "b": "zero",
+    "psnr_median": 11.6,
+    "psnr_min": 10.9,
+    "identical": false
+   },
+   {
+    "seed": "phoneA_s101",
+    "a": "none",
+    "b": "log",
+    "psnr_median": 11.6,
+    "psnr_min": 10.9,
+    "identical": false
+   },
+   {
+    "seed": "phoneA_s101",
+    "a": "zero",
+    "b": "log",
+    "psnr_median": 138.1,
+    "psnr_min": 138.1,
+    "identical": true
+   },
+   {
+    "seed": "phoneA_s102",
+    "a": "none",
+    "b": "zero",
+    "psnr_median": 11.6,
+    "psnr_min": 10.7,
+    "identical": false
+   },
+   {
+    "seed": "phoneA_s102",
+    "a": "none",
+    "b": "log",
+    "psnr_median": 11.6,
+    "psnr_min": 10.7,
+    "identical": false
+   },
+   {
+    "seed": "phoneA_s102",
+    "a": "zero",
+    "b": "log",
+    "psnr_median": 138.1,
+    "psnr_min": 138.1,
+    "identical": true
+   },
+   {
+    "seed": "phoneA_s103",
+    "a": "none",
+    "b": "zero",
+    "psnr_median": 14.8,
+    "psnr_min": 13.2,
+    "identical": false
+   },
+   {
+    "seed": "phoneA_s103",
+    "a": "none",
+    "b": "log",
+    "psnr_median": 14.8,
+    "psnr_min": 13.2,
+    "identical": false
+   },
+   {
+    "seed": "phoneA_s103",
+    "a": "zero",
+    "b": "log",
+    "psnr_median": 138.1,
+    "psnr_min": 138.1,
+    "identical": true
+   }
+  ]
+ },
+ "corruption_structure": {
+  "整块": {
+   "n": 602,
+   "tail_to_end": 602,
+   "suffix_bad_frac_median": 0.993,
+   "suffix_bad_frac_p10": 0.978,
+   "n_first_after_5pct": 371,
+   "bad_frac_median": 0.868,
+   "first_pos_median": 0.125,
+   "first_pos_min": 0.0,
+   "first_pos_max": 0.875
+  },
+  "分段": {
+   "n": 90,
+   "tail_to_end": 77,
+   "suffix_bad_frac_median": 0.983,
+   "suffix_bad_frac_p10": 0.426,
+   "n_first_after_5pct": 80,
+   "bad_frac_median": 0.37,
+   "first_pos_median": 0.5,
+   "first_pos_min": 0.0,
+   "first_pos_max": 0.875
+  }
+ },
+ "thermal_strata": {
+  "A_th0": "0/90",
+  "A_th1": "1/99",
+  "A_th2": "318/922",
+  "A_th3": "18/27",
+  "B_th0": "2/68",
+  "B_th1": "0/45",
+  "B_th2": "124/580",
+  "C_th0": "0/32",
+  "C_th1": "0/37",
+  "C_th2": "111/211"
+ },
+ "thermal_below_serious": {
+  "wrong": 21,
+  "n": 398,
+  "ci": [
+   3.3,
+   8.0
+  ]
+ },
+ "battery_within_serious": {
+  "A_45to80": "41/92",
+  "A_ge80": "230/662",
+  "A_lt45": "34/45",
+  "B_ge80": "124/580",
+  "C_45to80": "52/94",
+  "C_ge80": "59/117"
+ },
+ "battery_A_ge80_vs_lt45_fisher_p": 9e-08,
+ "thermal_at_start_strata": {
+  "A_start0": "1/103",
+  "A_start1": "0/96",
+  "A_start2": "320/913",
+  "A_start3": "16/26",
+  "B_start0": "2/77",
+  "B_start1": "0/42",
+  "B_start2": "124/574",
+  "C_start0": "0/35",
+  "C_start1": "1/36",
+  "C_start2": "110/209"
+ },
+ "thermal_at_start_low_runs": 37,
+ "thermal_at_start_low_phones": [
+  "A",
+  "B",
+  "C"
+ ],
+ "thermal_at_start_below_serious": {
+  "wrong": 4,
+  "n": 389,
+  "ci": [
+   0.3,
+   2.6
+  ]
+ },
+ "thermal_at_start_serious_or_critical": {
+  "wrong": 570,
+  "n": 1722,
+  "pct": 33.1
+ },
+ "thermal_at_start_cluster": {
+  "runs": 71,
+  "low_ci": [
+   0.0,
+   2.3
+  ],
+  "high_ci": [
+   22.7,
+   44.6
+  ],
+  "diff_ci": [
+   21.7,
+   43.7
+  ],
+  "low_runs_with_wrong": 3,
+  "low_runs": 37
+ },
+ "postreboot2_A": {
+  "wrong": 2,
+  "n": 75
+ },
+ "reboot_series_A": {
+  "pre": {
+   "wrong": 93,
+   "n": 100
+  },
+  "post": [
+   {
+    "name": "G",
+    "wrong": 1,
+    "n": 100,
+    "uptime_h": [
+     1.1,
+     1.6
+    ]
+   },
+   {
+    "name": "H",
+    "wrong": 2,
+    "n": 75,
+    "uptime_h": [
+     1.9,
+     2.3
+    ]
+   },
+   {
+    "name": "G2",
+    "wrong": 7,
+    "n": 100,
+    "uptime_h": [
+     4.3,
+     4.8
+    ]
+   }
+  ],
+  "trend_p_two_sided": 0.02,
+  "pre_vs_post_fisher_p": 3.7e-67
+ },
+ "klein": {
+  "klein_B": {
+   "n": 300,
+   "wrong": 0,
+   "hot": 300,
+   "log_calls": 0,
+   "dt_med": 3.39,
+   "ci": [
+    0.0,
+    1.2
+   ]
+  },
+  "wan_after_B": {
+   "n": 20,
+   "wrong": 4,
+   "hot": 20,
+   "log_calls": 6,
+   "dt_med": 17.93,
+   "ci": [
+    5.7,
+    43.7
+   ]
+  },
+  "klein_A": {
+   "n": 300,
+   "wrong": 0,
+   "hot": 300,
+   "log_calls": 0,
+   "dt_med": 3.29,
+   "ci": [
+    0.0,
+    1.2
+   ]
+  },
+  "wan_after_A": {
+   "n": 20,
+   "wrong": 8,
+   "hot": 20,
+   "log_calls": 11,
+   "dt_med": 16.45,
+   "ci": [
+    19.1,
+    63.9
+   ]
+  }
+ },
+ "klein_total": {
+  "n": 600,
+  "wrong": 0,
+  "ci": [
+   0.0,
+   0.6
+  ],
+  "log_calls": 0
+ },
+ "newchip_A20": {
+  "runs": {
+   "warm": {
+    "n": 20,
+    "wrong": 0,
+    "hot": 20,
+    "log_calls": 0,
+    "dt_med": 3.31,
+    "dt_max": 3.57
+   },
+   "tail": {
+    "n": 100,
+    "wrong": 0,
+    "hot": 100,
+    "log_calls": 0,
+    "dt_med": 5.32,
+    "dt_max": 8.99
+   },
+   "ui30": {
+    "n": 40,
+    "wrong": 0,
+    "hot": 40,
+    "log_calls": 0,
+    "dt_med": 8.71,
+    "dt_max": 9.35
+   },
+   "cpu": {
+    "n": 10,
+    "wrong": 0,
+    "hot": 10,
+    "log_calls": 0,
+    "dt_med": 14.37,
+    "dt_max": 15.35
+   },
+   "after": {
+    "n": 10,
+    "wrong": 0,
+    "hot": 10,
+    "log_calls": 0,
+    "dt_med": 7.19,
+    "dt_max": 7.59
+   }
+  },
+  "gpu_n": 170,
+  "gpu_wrong": 0,
+  "gpu_hot": 170,
+  "gpu_log": 0,
+  "gpu_ci": [
+   0.0,
+   2.1
+  ]
+ },
+ "klein_chain_A14": {
+  "klein_chain": {
+   "n": 60,
+   "wrong": 0,
+   "hot": 60,
+   "log_calls": 0,
+   "dt_med": 15.9,
+   "dt_max": 17.0,
+   "ci": [
+    0.0,
+    6.0
+   ]
+  },
+  "wan_after": {
+   "n": 20,
+   "wrong": 12,
+   "hot": 20,
+   "log_calls": 13,
+   "dt_med": 20.3,
+   "dt_max": 29.8,
+   "ci": [
+    36.1,
+    80.9
+   ]
+  }
+ },
+ "split_abort_segments": {
+  "0": 29,
+  "1": 24,
+  "2": 61
+ },
+ "newchip_chain3": {
+  "n": 70,
+  "wrong": 0,
+  "hot": 37,
+  "ge10s": 56,
+  "dt_max": 13.8,
+  "log_calls": 0,
+  "ci": [
+   0.0,
+   5.1
+  ]
+ },
+ "thermalgate_ungated": {
+  "source": "probephoneAthermal_1006_2240 ['2026-10-07 05:49', '2026-10-07 06:25']",
+  "n": 40,
+  "wrong": 21,
+  "wrong_pct": 52.5,
+  "wrong_ci": [
+   36.1,
+   68.5
+  ],
+  "nonzero_wrong": 21,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 19,
+   "II_ok": 2,
+   "IV_wrong": 2,
+   "IV_ok": 1,
+   "none_wrong": 0,
+   "none_ok": 16
+  },
+  "log_either_recall": "21/21",
+  "log_either_false_alarm": "3/19",
+  "log_II_recall": "19/21",
+  "log_II_false_alarm": "2/19",
+  "dt_median": 22.2,
+  "dt_range": [
+   6.9,
+   37.2
+  ],
+  "thermal_serious": 40,
+  "battery_range": [
+   95,
+   100
+  ]
+ },
+ "thermalgate_gated": {
+  "source": "probephoneAthermal_1006_2240 ['2026-10-07 05:59', '2026-10-07 06:35']",
+  "n": 40,
+  "wrong": 0,
+  "wrong_pct": 0.0,
+  "wrong_ci": [
+   0.0,
+   8.8
+  ],
+  "nonzero_wrong": 0,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 0,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 40
+  },
+  "log_either_recall": "0/0",
+  "log_either_false_alarm": "0/40",
+  "log_II_recall": "0/0",
+  "log_II_false_alarm": "0/40",
+  "dt_median": 12.7,
+  "dt_range": [
+   10.7,
+   14.4
+  ],
+  "thermal_serious": 8,
+  "battery_range": [
+   90,
+   100
+  ]
+ },
+ "thermalgate_waits": {
+  "ungated": {
+   "total_wait_s": 0,
+   "calls": 40,
+   "wait_per_call_s": 0.0
+  },
+  "gated": {
+   "total_wait_s": 2330,
+   "calls": 40,
+   "wait_per_call_s": 58.2
+  }
+ },
+ "thermalgate_fisher_p": 2.6e-08,
+ "tailcheck_phone": {
+  "fp32": {
+   "source": "probephoneAtail_1007_0003 「开始」2026-10-07 07:13:13 档=704x1280f32p",
+   "n": 100,
+   "wrong": 93,
+   "nz_wrong": 89,
+   "nz_caught": 89,
+   "tail_caught": 93,
+   "tail_false_alarm": 0,
+   "verifier_threw": 1,
+   "tail_1mcos_ok_max": 2.399e-11,
+   "tail_1mcos_wrong_min": 0.1535,
+   "log_caught": 93,
+   "log_false_alarm": 0,
+   "dt_median": 19.4
+  },
+  "shipped4s": {
+   "source": "probephoneAtail_1007_0003 「开始」2026-10-07 08:12:54 档=704x1280m",
+   "n": 100,
+   "wrong": 3,
+   "nz_wrong": 3,
+   "nz_caught": 3,
+   "tail_caught": 3,
+   "tail_false_alarm": 0,
+   "verifier_threw": 0,
+   "tail_1mcos_ok_max": 7.978e-08,
+   "tail_1mcos_wrong_min": 0.1449,
+   "log_caught": 3,
+   "log_false_alarm": 0,
+   "dt_median": 14.0
+  },
+  "block16_fp32": {
+   "source": "probephoneAb16_1007_0337 「开始」2026-10-07 10:48:22 档=704x1280f32b16（block16，输入 blk15_out）",
+   "n": 100,
+   "wrong": 99,
+   "all_zero": 9,
+   "nz_wrong": 90,
+   "nz_caught": 90,
+   "tail_caught": 99,
+   "tail_false_alarm": 0,
+   "log_caught": 99,
+   "log_false_alarm": 0,
+   "dt_median": 20.5
+  },
+  "phoneB_fp32": {
+   "source": "probephoneBtailgate_1007_0506 「开始」2026-10-07 12:14:10",
+   "n": 60,
+   "wrong": 39,
+   "nz_wrong": 28,
+   "nz_caught": 28,
+   "tail_caught": 39,
+   "tail_false_alarm": 0,
+   "log_caught": 39,
+   "log_false_alarm": 0,
+   "dt_median": 18.7
+  },
+  "phoneC_fp32": {
+   "source": "probephoneCtailgate_1007_0500 「开始」2026-10-07 12:09:35",
+   "n": 60,
+   "wrong": 45,
+   "nz_wrong": 39,
+   "nz_caught": 39,
+   "tail_caught": 45,
+   "tail_false_alarm": 0,
+   "log_caught": 45,
+   "log_false_alarm": 0,
+   "dt_median": 19.4
+  },
+  "shippedA2": {
+   "source": "probephoneAshipped_1007_0753 「开始」2026-10-07 15:00:38（实验 I 现役档）",
+   "n": 150,
+   "wrong": 0,
+   "nz_wrong": 0,
+   "nz_caught": 0,
+   "tail_caught": 0,
+   "tail_false_alarm": 0,
+   "log_caught": 0,
+   "log_false_alarm": 0,
+   "dt_median": 12.9
+  },
+  "shippedB2": {
+   "source": "probephoneBshipped_1007_0800 「开始」2026-10-07 15:08:36（实验 I 现役档）",
+   "n": 150,
+   "wrong": 0,
+   "nz_wrong": 0,
+   "nz_caught": 0,
+   "tail_caught": 0,
+   "tail_false_alarm": 0,
+   "log_caught": 0,
+   "log_false_alarm": 0,
+   "dt_median": 12.7
+  }
+ },
+ "tailcheck_sep": {
+  "wrong_min": 0.01,
+  "ok_max": 7.978e-08
+ },
+ "threshold_check": {
+  "calls": 4271,
+  "ok_max": 0.0009974,
+  "wrong_min": 0.002096,
+  "in_between": 73
+ },
+ "thermalgate_B_ungated": {
+  "source": "probephoneBtailgate_1007_0506 ['2026-10-07 12:46', '2026-10-07 13:16']",
+  "n": 40,
+  "wrong": 9,
+  "wrong_pct": 22.5,
+  "wrong_ci": [
+   10.8,
+   38.5
+  ],
+  "nonzero_wrong": 9,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 8,
+   "II_ok": 0,
+   "IV_wrong": 1,
+   "IV_ok": 4,
+   "none_wrong": 0,
+   "none_ok": 27
+  },
+  "log_either_recall": "9/9",
+  "log_either_false_alarm": "4/31",
+  "log_II_recall": "8/9",
+  "log_II_false_alarm": "0/31",
+  "dt_median": 14.8,
+  "dt_range": [
+   6.3,
+   30.4
+  ],
+  "thermal_serious": 40,
+  "battery_range": [
+   100,
+   100
+  ]
+ },
+ "thermalgate_B_gated": {
+  "source": "probephoneBtailgate_1007_0506 ['2026-10-07 12:53', '2026-10-07 13:22']",
+  "n": 40,
+  "wrong": 0,
+  "wrong_pct": 0.0,
+  "wrong_ci": [
+   0.0,
+   8.8
+  ],
+  "nonzero_wrong": 0,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 0,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 40
+  },
+  "log_either_recall": "0/0",
+  "log_either_false_alarm": "0/40",
+  "log_II_recall": "0/0",
+  "log_II_false_alarm": "0/40",
+  "dt_median": 12.0,
+  "dt_range": [
+   10.3,
+   13.8
+  ],
+  "thermal_serious": 7,
+  "battery_range": [
+   100,
+   100
+  ]
+ },
+ "thermalgate_B_fisher_p": 0.0024,
+ "thermalgate_C_ungated": {
+  "source": "probephoneCtailgate_1007_0500 ['2026-10-07 12:41', '2026-10-07 13:12']",
+  "n": 40,
+  "wrong": 9,
+  "wrong_pct": 22.5,
+  "wrong_ci": [
+   10.8,
+   38.5
+  ],
+  "nonzero_wrong": 9,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 9,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 4,
+   "none_wrong": 0,
+   "none_ok": 27
+  },
+  "log_either_recall": "9/9",
+  "log_either_false_alarm": "4/31",
+  "log_II_recall": "9/9",
+  "log_II_false_alarm": "0/31",
+  "dt_median": 18.6,
+  "dt_range": [
+   6.9,
+   29.7
+  ],
+  "thermal_serious": 40,
+  "battery_range": [
+   85,
+   90
+  ]
+ },
+ "thermalgate_C_gated": {
+  "source": "probephoneCtailgate_1007_0500 ['2026-10-07 12:49', '2026-10-07 13:19']",
+  "n": 40,
+  "wrong": 0,
+  "wrong_pct": 0.0,
+  "wrong_ci": [
+   0.0,
+   8.8
+  ],
+  "nonzero_wrong": 0,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 0,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 40
+  },
+  "log_either_recall": "0/0",
+  "log_either_false_alarm": "0/40",
+  "log_II_recall": "0/0",
+  "log_II_false_alarm": "0/40",
+  "dt_median": 12.0,
+  "dt_range": [
+   10.3,
+   14.8
+  ],
+  "thermal_serious": 7,
+  "battery_range": [
+   80,
+   90
+  ]
+ },
+ "thermalgate_C_fisher_p": 0.0024,
+ "postreboot_A": {
+  "source": "probephoneAuptime_1007_0620 13:27（重启后约 1.1–1.6 h）",
+  "n": 100,
+  "wrong": 1,
+  "wrong_pct": 1.0,
+  "wrong_ci": [
+   0.0,
+   5.4
+  ],
+  "nonzero_wrong": 1,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 1,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 21,
+   "none_wrong": 0,
+   "none_ok": 78
+  },
+  "log_either_recall": "1/1",
+  "log_either_false_alarm": "21/99",
+  "log_II_recall": "1/1",
+  "log_II_false_alarm": "0/99",
+  "dt_median": 17.0,
+  "dt_range": [
+   6.3,
+   19.8
+  ],
+  "thermal_serious": 100,
+  "battery_range": [
+   80,
+   80
+  ],
+  "wired_mb": [
+   610,
+   743
+  ],
+  "uptime_h": [
+   1.1,
+   1.6
+  ]
+ },
+ "e2e_log_arm_flagged": {
+  "all_zero": 46,
+  "log_only": 1,
+  "total": 47,
+  "note": "log_only 那 1 次重算后结果不变 = 误报"
+ },
+ "keepwarm_A_whole": {
+  "source": "probephoneAwarm_1007_0159 ['2026-10-07 09:08', '2026-10-07 09:51']",
+  "n": 40,
+  "wrong": 34,
+  "wrong_pct": 85.0,
+  "wrong_ci": [
+   70.2,
+   94.3
+  ],
+  "nonzero_wrong": 34,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 34,
+   "II_ok": 1,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 5
+  },
+  "log_either_recall": "34/34",
+  "log_either_false_alarm": "1/6",
+  "log_II_recall": "34/34",
+  "log_II_false_alarm": "1/6",
+  "dt_median": 20.4,
+  "dt_range": [
+   15.3,
+   26.9
+  ],
+  "thermal_serious": 40,
+  "battery_range": [
+   80,
+   85
+  ]
+ },
+ "keepwarm_A_split_gap0": {
+  "source": "probephoneAwarm_1007_0159 ['2026-10-07 09:18', '2026-10-07 10:01']",
+  "n": 40,
+  "wrong": 12,
+  "wrong_pct": 30.0,
+  "wrong_ci": [
+   16.6,
+   46.5
+  ],
+  "nonzero_wrong": 12,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 12,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 28
+  },
+  "log_either_recall": "12/12",
+  "log_either_false_alarm": "0/28",
+  "log_II_recall": "12/12",
+  "log_II_false_alarm": "0/28",
+  "dt_median": 22.4,
+  "dt_range": [
+   14.2,
+   32.8
+  ],
+  "thermal_serious": 40,
+  "battery_range": [
+   75,
+   80
+  ]
+ },
+ "keepwarm_A_split_gap3_idle": {
+  "source": "probephoneAwarm_1007_0159 ['2026-10-07 09:28', '2026-10-07 10:11']",
+  "n": 40,
+  "wrong": 28,
+  "wrong_pct": 70.0,
+  "wrong_ci": [
+   53.5,
+   83.4
+  ],
+  "nonzero_wrong": 28,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 28,
+   "II_ok": 0,
+   "IV_wrong": 0,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 12
+  },
+  "log_either_recall": "28/28",
+  "log_either_false_alarm": "0/12",
+  "log_II_recall": "28/28",
+  "log_II_false_alarm": "0/12",
+  "dt_median": 25.8,
+  "dt_range": [
+   19.0,
+   32.9
+  ],
+  "thermal_serious": 40,
+  "battery_range": [
+   75,
+   80
+  ]
+ },
+ "keepwarm_A_split_gap3_warm": {
+  "source": "probephoneAwarm_1007_0159 ['2026-10-07 09:39', '2026-10-07 10:23']",
+  "n": 40,
+  "wrong": 21,
+  "wrong_pct": 52.5,
+  "wrong_ci": [
+   36.1,
+   68.5
+  ],
+  "nonzero_wrong": 21,
+  "usual_checks_caught": 0,
+  "table": {
+   "II_wrong": 20,
+   "II_ok": 0,
+   "IV_wrong": 1,
+   "IV_ok": 0,
+   "none_wrong": 0,
+   "none_ok": 19
+  },
+  "log_either_recall": "21/21",
+  "log_either_false_alarm": "0/19",
+  "log_II_recall": "20/21",
+  "log_II_false_alarm": "0/19",
+  "dt_median": 28.0,
+  "dt_range": [
+   19.7,
+   37.3
+  ],
+  "thermal_serious": 40,
+  "battery_range": [
+   75,
+   80
+  ]
+ },
+ "keepwarm_A_fisher": {
+  "whole_vs_split": 1e-06,
+  "idle_vs_gap0": 0.00069,
+  "warm_vs_idle": 0.17,
+  "warm_vs_gap0": 0.069
+ },
+ "duration_auc_phoneA": 0.768,
+ "recovery_phoneA": {
+  "imm": {
+   "needed": 5,
+   "recovered": 5
+  },
+  "wait": {
+   "needed": 6,
+   "recovered": 6
+  },
+  "reload": {
+   "needed": 3,
+   "recovered": 3
+  }
+ },
+ "block16_cuts": {
+  "nonzero_wrong": 90,
+  "to_last_token": 90,
+  "at_chunk_boundary": 82,
+  "at_first_token": 31,
+  "at_multiple_of_64_not_chunk": 4
+ },
+ "holm": {
+  "raw": {
+   "split_A": 0.00031,
+   "split_A_rep": 1e-06,
+   "gap_B": 2.6e-08,
+   "gap_A": 0.00069,
+   "gating_A": 2.6e-08,
+   "recovery_C": 0.011,
+   "qchunk_B": 0.04,
+   "warm_vs_idle_A": 0.17,
+   "gating_B": 0.0024,
+   "gating_C": 0.0024,
+   "split_B": 0.22
+  },
+  "adjusted": {
+   "gap_B": 2.9e-07,
+   "gating_A": 2.9e-07,
+   "split_A_rep": 9e-06,
+   "split_A": 0.0025,
+   "gap_A": 0.0048,
+   "gating_B": 0.014,
+   "gating_C": 0.014,
+   "recovery_C": 0.044,
+   "qchunk_B": 0.12,
+   "warm_vs_idle_A": 0.34,
+   "split_B": 0.34
+  }
+ }
+}

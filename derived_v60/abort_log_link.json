@@ -1,0 +1,46 @@
+{
+ "corrupted_with_record": 692,
+ "corrupted_without_record": 2,
+ "correct_with_record": 162,
+ "correct_without_record": 2063,
+ "dt_median": {
+  "corrupt_rec": 18.99,
+  "ok_norec": 14.06,
+  "ok_rec": 6.92,
+  "corrupt_norec": 15.8
+ },
+ "per_tier": {
+  "704x1280f32p": {
+   "corrupt_rec": 555,
+   "ok_norec": 1242,
+   "ok_rec": 127,
+   "corrupt_norec": 2
+  },
+  "704x1280mf61p": {
+   "ok_norec": 174,
+   "ok_rec": 18,
+   "corrupt_rec": 1
+  },
+  "704x1280m_t2": {
+   "ok_norec": 100
+  },
+  "704x1280f32q16": {
+   "ok_norec": 27,
+   "corrupt_rec": 26,
+   "ok_rec": 8
+  },
+  "704x1280f32q32": {
+   "ok_norec": 45,
+   "corrupt_rec": 5
+  },
+  "704x1280m": {
+   "ok_norec": 397,
+   "corrupt_rec": 3
+  },
+  "704x1280f32b16": {
+   "corrupt_rec": 102,
+   "ok_norec": 78,
+   "ok_rec": 9
+  }
+ }
+}
