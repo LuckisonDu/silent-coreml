@@ -1,0 +1,26 @@
+{
+ "old_recompute_vs_old_blk00_out": {
+  "one_minus_cos": 2.247424446988333e-06,
+  "maxdiff": 1.15625,
+  "meandiff": 0.0010265096697589574
+ },
+ "old_recompute_fp32_vs_old_blk00_out": {
+  "one_minus_cos": 2.2275663608128937e-06,
+  "maxdiff": 1.1583023071289062,
+  "meandiff": 0.0010293139979574994
+ },
+ "old_stats": {
+  "rms": 0.8641974329948425,
+  "absmax": 60.058040618896484
+ },
+ "pexels_stats": {
+  "rms": 0.8585660457611084,
+  "absmax": 66.04244232177734,
+  "finite": true
+ },
+ "pexels_fp16_roundtrip": {
+  "one_minus_cos": 2.2724781501004543e-08,
+  "maxdiff": 0.02507781982421875,
+  "meandiff": 4.354740512589024e-05
+ }
+}

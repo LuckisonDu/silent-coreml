@@ -26,10 +26,25 @@ Companion code and data for the ICCE 2027 submission (paper version v60). The pa
 
 Run directories are named `probe<device><experiment>_<MMDD>_<HHMM>`. A few early runs have shorter names (`probe2_…_phoneA`, `probe3_…_phoneA`, `probephoneA4_…`, `probephoneA5split_…` are Phone A; `probephoneB2_…`, `probephoneB_…` are Phone B; `probephoneC_…`, `probephoneC61_…` are Phone C).
 
+## Public input set (Pexels frame)
+
+The original probe inputs are private, so we also provide a second input set built from a public video frame: frame 0 of Pexels video 10069583 (https://www.pexels.com/video/low-angle-view-on-man-standing-by-building-10069583/, by Nitin Khajotia), 704x1280, seed 42, sigma = 1.0, first frame pinned. It contains no selfie or other personal data.
+
+| File | What it is | Where |
+|---|---|---|
+| `inputs_pexels/ctx.f16`, `mod3.f16`, `rope.f16` | block-0 conditioning inputs (fp16) | this repository |
+| `inputs_pexels/first_frame_704x1280.png` | the Pexels frame used | this repository |
+| `inputs_pexels/meta.txt`, `ref_check.json`, `pexels_block0_ref.py`, `SHA256SUMS` | provenance, reference check, script that computes the reference, checksums | this repository |
+| `stem_out.f16`, `blk00_out.f16` (70 MB each, fp16, 1x11440x3072) | block-0 input tensor and its PyTorch fp32 reference output | Release `pexels-inputs` (too large for the repository) |
+
+Reference output: block 0 computed alone in PyTorch fp32 (not the phone's own Core ML output). On Phone A (iPhone 12, A14), 200 fp32 block-0 calls on this input gave 49 corrupted outputs (24.5%, 95% Clopper-Pearson CI 18.7-31.1%), versus 31/150 (20.7%) on the private input. The tail check flagged 48 of the 49 and the strided check all 49, with no false alarm on the 151 correct calls. On a clean call the PyTorch reference differs from the phone output by 1-cos of about 2e-6 (int8 quantisation noise), far below the corruption threshold of 1e-3. A second phone (Phone B) could not be run on this input: the probe app stalled before the first call, cause not determined.
+
+Verify the downloads with `SHA256SUMS`. The tensors are derived from a Pexels video frame and the public Wan2.2-TI2V-5B Turbo weights; the Pexels frame is used under the Pexels licence.
+
 ### Not included
 
 * **Model weights.** Wan2.2-TI2V-5B Turbo is a third-party model. Its Core ML block packages and the exporter are not included. A verifier is the same block with the same weights, exported so that it outputs only the K = 64 query rows it checks: the last 64 tokens (tail) or rows p_k = floor((k+0.5)T/K) (strided); every other part of the block is unchanged.
-* **Input tensors and references.** These were recorded on the phone during a private generation, so the paper's statement that tensors were "saved in full" (`dump_analysis.json`) and the per-token error figure (`fig/truncation.pdf`) cannot be recomputed from this package. `derived_v60/dump_analysis.json` is included for reference.
+* **Original input tensors and references.** These were recorded on the phone during a private generation (a public Pexels input set is provided above), so the paper's statement that tensors were "saved in full" (`dump_analysis.json`) and the per-token error figure (`fig/truncation.pdf`) cannot be recomputed from this package. `derived_v60/dump_analysis.json` is included for reference.
 * **Images and videos.** The package contains no first frames, clips or tensor dumps. For the full clips we include `auto_output.framemd5` instead, which is the output of `ffmpeg -f framemd5` on each clip. It is enough to check that two clips are frame-identical but not to compute PSNR. The PSNR values (the 47/46 dB of the iOS 27 tail-checked clips, and the PSNR fields of `e2e_compare.json`) are therefore given only in `derived_v60/`.
 * Each per-clip trace keeps only the segment for that clip. The phone appends every clip to one trace file, and the scripts read only the last segment.
 

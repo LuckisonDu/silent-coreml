@@ -1,0 +1,5 @@
+第 0 块「单独」的 torch fp32 参考输出 blk00_out.f16(fp16 存, 形状 1x11440x3072), 供手机探针 --abort-probe=704x1280f32p 读。
+输入 stem_out/ctx/mod3/rope/first_frame 拷自 ../dump_chain8_pexels(Pexels 素材 px_10069583 第 0 帧, https://www.pexels.com/video/low-angle-view-on-man-standing-by-building-10069583/, 作者 Nitin Khajotia, 704x1280, 种子 42, σ=1.0, 钉首帧; 不含任何人自拍). 详见该目录 meta.txt / gen_inputs.py。
+blk00_out 由 pexels_block0_ref.py(本目录副本)在 0.4 CPU 上算: 与 fastwan/export/export_chain_blocks.py 同源(直接 exec 其 def main 之前部分, FW_CHAIN=0, 块 fp32、TraceSelfAttnRope、权重 /data/turbo/Wan2.2-TI2V-5B-Turbo), 只做 torch 前向不导出 Core ML。
+校验(ref_check.json): 同一流水线对旧 dump 输入重算第 0 块, 与旧 blk00_out.f16 比: 1-cos=2.2e-6, maxdiff=1.16(输出 absmax 60.06, meandiff 1.0e-3, 逐元素)。Pexels 输出 rms 0.8586 absmax 66.04 全有限, 与旧输入同量级(旧 rms 0.8642)。
+旧 dump 仅内部校验, 不在本目录。
