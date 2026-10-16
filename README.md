@@ -95,6 +95,11 @@ python3 analysis/fig_v25.py views/s1008 figs/   # Fig. rates_char / rates_mitig
 
 **Note on the Galaxy A12 "48".** The 48 block calls are all the mixed-precision block-0 calls of 10-08: 35 on a cool phone and 13 on a heated one.
 
+## Per-run summary (`runs_summary.csv`)
+
+One row per run directory x model/export x condition, with the start time (Pacific time, from the run directory name), the device code, the number of distinct logged outputs and how many were corrupted (`1-cos > 1e-3`). Counts only, no raw log lines. The rows add up to the 10,315 outputs (1,250 corrupted) of Table I of the paper; the two Oct. 15 runs on Phone A, which are not in Table I, are listed at the end (the two Oct. 15 iPhone 16 runs are in Table I). Device logs accumulate across runs, so a logged line is counted for the first run whose log contains it. Raw logs of runs after paper v60 are not all included in `logs/`.
+Recompute: `python3 analysis/outputs_partition.py` and `analysis/runs_summary.py` (private-log paths at the top of each script; edit them to your own copy).
+
 ## Reading the logs
 
 Every probe line starts with a UTC timestamp. Some markers and field values are in Chinese:
